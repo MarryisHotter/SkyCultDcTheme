@@ -5645,7 +5645,7 @@ body::before {
     height: 10px;
     left: 272px;
     top: 0px;
-    background-image: url();
+    background-image: url(https://i.imgur.com/ba7D1D3.jpg);
     background-size: var(--background-size); /* Verwendet die festgelegte Größe */
     background-position: var(--background-position-x) var(--background-position-y);
     border-radius: var(--border-radius);
