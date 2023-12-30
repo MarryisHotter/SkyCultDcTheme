@@ -123,6 +123,69 @@
 
 
 /*
+reactions
+*/
+
+.reactionInner__4135b{
+  border-radius: 6px;
+      border: 1px solid hsla(var(--accent-hsl),var(--accent-opacity)); 
+  border-color: hsla(var(--accent-hue), 100%, 50%, 0.8); /* Saturation und Lightness bleiben konstant, Hue aus --accent-hsl */
+      box-shadow: inset 0px 0px 10px 2px hsla(var(--accent-hue), 100%, 50%, 0.8),
+                0px 0px 10px 2px hsla(var(--accent-hue), 80%, 50%, 0.8);
+                transform: scale(1.04);
+}
+
+/*
+channel search
+*/
+.content__1a4fe.container__10dc7{
+  background-color: rgba(255, 0, 0, 0);
+}
+
+.chat__52833.container__7590f{
+  background-color: rgba(255, 0, 0, 0);
+}
+
+
+.returnButton__32059.button_afdfd9.lookOutlined__46d54.colorPrimary__6ed40.sizeSmall__71a98.grow__4c8a4:hover{
+  background-color: hsla(var(--accent-hue), 100%, 50%, 0.8);
+      border: 1px solid hsla(var(--accent-hsl),var(--accent-opacity)); 
+  border-color: hsla(var(--accent-hue), 100%, 50%, 0.8); /* Saturation und Lightness bleiben konstant, Hue aus --accent-hsl */
+      box-shadow: inset 0px 0px 10px 2px hsla(var(--accent-hue), 100%, 50%, 0.8),
+                0px 0px 10px 2px hsla(var(--accent-hue), 80%, 50%, 0.8);
+}
+
+.header__60bef.container__11d72.themed_b152d4{
+  background-color: rgba(255, 0, 0, 0);
+}
+
+/*
+Nitro Gifting
+*/
+
+.giftNitroInfo__7dec4{
+  background-color: rgba(255, 0, 0, 0);
+}
+
+.content__764ce.body__59737.thin_b1c063.scrollerBase_dc3aa9{
+  background-color: rgba(255, 0, 0, 0);
+}
+
+
+.noWrap__5c413 {
+  background-color: rgba(255, 0, 0, 0);
+}
+
+
+/*
+channel looking on servers
+*/
+
+.chat__52833.scrollerContainer_bf5dbd{
+  background-color: rgba(255, 0, 0, 0);
+}
+
+/*
 type Box
 */
 
