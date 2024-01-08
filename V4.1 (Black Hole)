@@ -5891,3 +5891,101 @@ body::before {
 .container__6a848.adminUpsell_bd0de2 {
     background-color: rgba(0, 0, 0, 0.637);
 }
+.directoryModal-YJsOMv,
+.keyboardShortcutsModal__74c71,
+.autocomplete_df266d,
+.menu_dc52c6,
+.root__6d24f:not(.carouselModal-1eUFoq),
+.scroller__5fda0 {
+    background-color: rgba(0, 0, 0, 0.9) !important;
+}
+
+.background_cb0a80{
+  background-color: rgba(255, 0, 0, 0);
+}
+.title__7f0f1.background_cb0a80.forumOrHome__75784.container__11d72.themed_b152d4 {
+    background-color: rgba(255, 0, 0, 0);
+}
+
+/*hovering over files for background + glowing*/
+
+.container_dbadf5 {
+  background-color: rgba(0, 0, 0, 0.02);
+  border-radius: 14px; 
+  transition: box-shadow 0.3s ease, background-color 0.3s ease;
+  box-shadow: 0 0 10px rgba(0, 0, 255, 0); 
+}
+.container_dbadf5:hover {
+  box-shadow: 0 0 20px hsl(var(--accent-hsl));
+  background-color: rgba(0, 0, 0, 0.6); 
+}
+
+/*Update Notify*/
+.tipTitle_a7615c{
+   background-color: rgb(0, 0, 0); 
+  content: "Latest Theme Update:";
+}
+.tip__6e299::before {
+  content: " Latest Discord Theme Update: Added this message and added a hover element for files";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(0, 0, 0); 
+  border-radius: 0 0 14px 14px;
+  z-index: 999;
+  box-shadow: inset 0px 0px 10px 1px hsla(var(--accent-hue), 100%, 50%, 0.8),
+    0px 0px 10px 1px hsla(var(--accent-hue), 80%, 50%, 0.8);
+}
+
+.tipTitle_a7615c{
+    background-color: rgba(255, 0, 0, 0); 
+}
+.container__4bde3{
+    background-color: rgba(255, 0, 0, 0); 
+}
+.wrapper__66cd5{
+  background-color: rgba(0, 0, 0, 0.7);
+}
+.inset__0bfb3 {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+/*Verbesserter Offlinebildschirm*/
+.content__0e954{
+  background-color: #000000b1;
+  border-radius: 20px;
+        box-shadow: inset 0px 0px 10px 1px hsla(var(--accent-hue), 100%, 50%, 0.8),
+                0px 0px 10px 1px hsla(var(--accent-hue), 80%, 50%, 0.8);
+}
+.problems__755eb{
+  background-color: #000000ea;
+  box-shadow: 0px 0px 50px 1px hsla(var(--accent-hue), 100%, 50%, 0.8),
+    0px 0px 10px 1px hsla(var(--accent-hue), 80%, 50%, 0.8);
+}
+/*Hintergrund für "Wo möchtest du hin?" bei strg + k*/
+.input__848cd{
+  background-color: rgba(0, 0, 0, 0.4);
+    box-shadow: 0px 0px 50px 1px hsla(var(--accent-hue), 100%, 50%, 0.8),
+    0px 0px 10px 1px hsla(var(--accent-hue), 80%, 50%, 0.8);
+}
+
+.section_efc22d {
+  background-color: rgb(0, 0, 0);
+}
+.protip__84833{
+  margin-top: -16px;
+  background-color: rgba(0, 0, 0, 0);
+  border-radius: 15px  15px 15px 15px;
+}
+/*pinned msgs*/
+.messageGroupCozy__2dedd{
+  background-color: rgba(0, 0, 0, 0.692);
+}
+/*removes a gray object from slash-commands*/
+.wrapper__7a35f{
+  background-color: rgba(0, 0, 0, 0);
+}
