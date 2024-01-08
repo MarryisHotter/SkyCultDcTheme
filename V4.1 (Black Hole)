@@ -5960,6 +5960,8 @@ body::before {
   border-radius: 20px;
         box-shadow: inset 0px 0px 10px 1px hsla(var(--accent-hue), 100%, 50%, 0.8),
                 0px 0px 10px 1px hsla(var(--accent-hue), 80%, 50%, 0.8);
+height: 24%;
+margin-top: -50px;
 }
 .problems__755eb{
   background-color: #000000ea;
