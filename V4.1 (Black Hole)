@@ -106,7 +106,7 @@
   --mention-foreground: var(--Text);
   --mention-background: var(--Hover);
   --linear: linear-gradient(to right, #ff0400, #0011ff);
-  --bgch: 0, 0, 0, 0.06
+  --bgch: 0, 0, 0, 0.02
 
 }
 
