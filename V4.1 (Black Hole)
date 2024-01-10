@@ -5910,7 +5910,7 @@ body::before {
 /*hovering over files for background + glowing*/
 
 .container_dbadf5 {
-  background-color: rgba(0, 0, 0, 0.02);
+  background-color: rgba(0, 0, 0, 0.06);
   border-radius: 14px; 
   transition: box-shadow 0.3s ease, background-color 0.3s ease;
   box-shadow: 0 0 10px rgba(0, 0, 255, 0); 
