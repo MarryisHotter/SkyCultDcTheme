@@ -1,6 +1,6 @@
 :root {
   --accent-hue: 0;
-  --app-bg: url("https://i.imgur.com/0erJhCR.jpeg");
+  --background: url(https://i.imgur.com/247ldAo.jpg);
   --app-blur: 0px;
   --app-margin: 24px;
   --app-radius: 10px;
@@ -63,7 +63,7 @@
   --switch-slider-color: hsla(218, 100%, 50%, 0.85);
   --switch-knob-color: hsl(0, 100%, 50%);
   --popout-color: rgba(0,0,0,0.55);
-  --popout-blur: 8px;
+  --popout-blur: 4px;
   --popout-header-opacity: 0.3;
   --popout-header-shadow: 0px 3px 9px 0px rgba(0,0,0,0.25);
   --popout-radius: var(--app-radius);
@@ -106,8 +106,7 @@
   --mention-foreground: var(--Text);
   --mention-background: var(--Hover);
   --linear: linear-gradient(to right, #ff0400, #0011ff);
-  --bgch: 0, 0, 0, 0.02
-
+  --linear-transparent: linear-gradient(to right, #ff040071, #0011ff65);
 }
 
 .theme-dark,
@@ -121,6 +120,403 @@
 }
 
 /*-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+/*
+Friend list patch
+*/
+
+.peopleListItem_d14722:hover{
+backdrop-filter: blur(6px);
+background: var(--linear-transparent);
+ border: 1px solid hsl(var(--accent-hsl)); 
+ margin-top: 2px;
+ margin-bottom: 2px;
+ border-radius:  8px;
+
+ 
+}
+
+.itemCard__1f162.wrapper__6e669.outer_a41cf3.padded__89fb8.interactive__01cfa{
+backdrop-filter: blur(6px);
+background: var(--linear-transparent);
+ border: 1px solid hsl(var(--accent-hsl)); 
+ margin-top: 8px;
+ 
+}
+
+.section_efc22d{
+backdrop-filter: blur(6px);
+background: var(--linear-transparent);
+ border: 1px solid hsl(var(--accent-hsl)); 
+ margin-top: 8px;
+ 
+}
+
+/*
+reply UI fix
+*/
+
+.replyBar_b64d74{
+  background: var(--linear-transparent);
+  backdrop-filter: blur(6px);
+  margin-top: -2px;
+}
+
+
+/*
+blur backgrounds
+*/
+
+.userPopoutOuter_d739b2.userProfileOuter__46bb7.userProfileOuterUnthemed__48723.profileColors__2e2f0.theme-dark{
+backdrop-filter: blur(6px);
+background-color: rgba(0, 0, 0, 0.562);
+ border: 0px solid hsl(var(--accent-hsl)); 
+  border-radius: 15px; 
+  box-shadow: 0px 0px 5px 2px hsl(var(--accent-hsl)), inset 0px 0px 5px 2px hsl(var(--accent-hsl));
+}
+
+.mutualGuildsList__6e961{
+backdrop-filter: blur(6px);
+background-color: rgba(0, 0, 0, 0);
+ border: px solid hsl(var(--accent-hsl)); 
+ 
+}
+
+.modal_f53429.scrollbarGhostHairline_c9a45f.scrollbar_d66c5e.root_a28985.fullscreenOnMobile__96797.rootWithShadow__073a7{
+backdrop-filter: blur(6px);
+}
+
+
+.browser_fece63.container__8261a{
+backdrop-filter: blur(6px);
+background-color: rgba(0, 0, 0, 0.562);
+ border: 0px solid hsl(var(--accent-hsl)); 
+  border-radius: 15px; 
+  box-shadow: 0px 0px 5px 2px hsl(var(--accent-hsl)), inset 0px 0px 5px 2px hsl(var(--accent-hsl));
+}
+
+.scroller__750f5.thin_b1c063.scrollerBase_dc3aa9{
+backdrop-filter: blur(6px);
+ border: 0px solid hsl(var(--accent-hsl)); 
+  border-radius: 5px; 
+  box-shadow: 0px 0px 5px 2px hsl(var(--accent-hsl)), inset 0px 0px 5px 2px hsl(var(--accent-hsl));
+}
+
+.root__26810.withHeader__43cb3.root_a28985.large_def294.fullscreenOnMobile__96797.rootWithShadow__073a7{
+backdrop-filter: blur(6px);
+background-color: rgba(0, 0, 0, 0.562);
+}
+
+.contentWrapper__321ed{
+backdrop-filter: blur(6px);
+background-color: rgba(0, 0, 0, 0.562);
+ border: 0px solid hsl(var(--accent-hsl)); 
+  border-radius: 15px; 
+  box-shadow: 0px 0px 5px 2px hsl(var(--accent-hsl)), inset 0px 0px 5px 2px hsl(var(--accent-hsl));
+}
+
+
+.popout__08442.root_a28985.small__05f7b.fullscreenOnMobile__96797.rootWithShadow__073a7{
+backdrop-filter: blur(6px);
+background-color: rgba(0, 0, 0, 0.562);
+}
+
+.container_f03f1d.root_a28985.rootWithShadow__073a7{
+backdrop-filter: blur(6px);
+background-color: rgba(0, 0, 0, 0.562);
+}
+
+.menu_dc52c6.fixed__5f419{
+backdrop-filter: blur(6px);
+background-color: rgba(0, 0, 0, 0.562);
+ border: 0px solid hsl(var(--accent-hsl)); 
+  border-radius: 15px; 
+  box-shadow: 0px 0px 5px 2px hsl(var(--accent-hsl)), inset 0px 0px 5px 2px hsl(var(--accent-hsl));
+}
+/*
+scale fixing
+*/
+
+.root__649bb.tile_a411a4{
+scale: 0.95;
+}
+
+.memberInner_a32223.layout_bb8e67{
+  margin-left: 2px;
+  margin-right: 5px;
+}
+
+.root_a48873.flexCenter_c1238a{
+scale: 1.04;
+}
+
+
+.tile_f5f57f.idle__90385.tile_a411a4{
+scale: 0.95;
+}
+
+.tile_f5f57f.tile_a411a4{
+scale: 0.95;
+}
+
+.interactive__776ee.interactive_a868bc{
+scale: 0.95;
+}
+
+.scroller__4b984.thin_b1c063.scrollerBase_dc3aa9.fade_ba0fa0{
+  margin-left: -5px;
+  margin-right: 15px;
+  background-color: var(--message-color) !important;
+  border-radius: var(--message-radius);
+}
+
+.scroller__1f96e.customTheme_db4d28.auto_a48086.scrollerBase_dc3aa9.disableScrollAnchor_e73c0f.managedReactiveScroller__79923{
+  margin-left: 15px;
+  margin-right: 15px;
+  background-color: var(--message-color) !important;
+  border-radius: var(--message-radius);
+}
+
+/*
+mention border fix
+*/
+
+.wrapper__09ecc {
+  margin-left: 18px;
+  margin-right: 15px;
+  background-color: var(--message-color) !important;
+  border-radius: var(--message-radius);
+}
+
+
+/*
+jump to new messages
+*/
+
+.jumpToPresentBar__0ff7f.barBase__4e0ba{
+  background: var(--linear-transparent);
+  backdrop-filter: blur(6px);
+}
+
+.autocompleteInner_a0e6a1.autocompleteInner__8785c{
+  background: var(--linear-transparent);
+  backdrop-filter: blur(6px);
+}
+
+/*
+Mentioned message glow
+*/
+
+@keyframes glowing {
+  0% { box-shadow: 0px 0px 10px 5px hsl(var(--accent-hsl)), inset 0px 0px 10px 5px hsl(var(--accent-hsl)); }
+  50% { box-shadow: 0px 0px 17px 7px hsl(var(--accent-hsl)), inset 0px 0px 17px 7px hsl(var(--accent-hsl)); }
+  100% { box-shadow: 0px 0px 10px 5px hsl(var(--accent-hsl)), inset 0px 0px 10px 5px hsl(var(--accent-hsl)); }
+}
+
+.mentioned__58017 {
+  position: relative;
+  background-color: transparent;
+  padding: 2px;  
+  border: 0px solid hsl(var(--accent-hsl)); 
+  border-radius: 15px; 
+  box-shadow: 0px 0px 10px 5px hsl(var(--accent-hsl)), inset 0px 0px 10px 5px hsl(var(--accent-hsl));
+  animation: glowing 4s infinite;
+}
+
+
+/*
+Payment in Settings
+*/
+
+.codeRedemptionRedirect_bc7f36.card__4dc22{
+  background-color: rgba(0, 0, 0, 0.301);
+}
+
+.hoverablePayment__3ea24.payment__7d702.paymentRow__1bb7a.bottomDivider_a59d97{
+  background-color: rgba(9, 255, 0, 0);
+}
+
+.bottomDivider_a59d97.thin_b1c063 scrollerBase_dc3aa9{
+  background-color: rgba(9, 255, 0, 0);
+}
+
+.verticalFit_d9ac53.paginator_e620d3{
+  background-color: rgba(9, 255, 0, 0);
+}
+
+.paymentPane__9cf01.verticalFit_d9ac53{
+  background-color: rgba(9, 255, 0, 0);
+}
+
+/*
+Boost Fix 3
+*/
+
+.content__1b8a0 {
+  background-color: rgba(9, 255, 0, 0);
+}
+
+/*
+Boost fix 2
+*/
+
+.select__0eb48.lookFilled__3dba3{
+  background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 6px;
+      border: 1px solid hsla(var(--accent-hsl),var(--accent-opacity)); 
+  border-color: hsla(var(--accent-hue), 100%, 50%, 0.8); /* Saturation und Lightness bleiben konstant, Hue aus --accent-hsl */
+      box-shadow: inset 0px 0px 10px 2px hsla(var(--accent-hue), 100%, 50%, 0.8),
+                0px 0px 10px 2px hsla(var(--accent-hue), 80%, 50%, 0.8);
+               
+}
+
+.breadcrumb.wrapper_dae547{
+    background-color: rgba(0, 0, 0, 0);
+}
+
+/*
+Boost Fix 1
+*/
+
+.paymentModalContent.content__1b8a0{
+    background-color: rgba(0, 0, 0, 0);
+}
+
+/* 
+some Backgrounds
+*/
+.directoryModal-YJsOMv,
+.keyboardShortcutsModal__74c71,
+.autocomplete_df266d,
+.root__6d24f:not(.carouselModal-1eUFoq),
+.scroller__5fda0 {
+    background-color: rgba(0, 0, 0, 0.9) !important;
+}
+
+.background_cb0a80{
+  background-color: rgba(255, 0, 0, 0);
+}
+.title__7f0f1.background_cb0a80.forumOrHome__75784.container__11d72.themed_b152d4 {
+    background-color: rgba(255, 0, 0, 0);
+}
+
+.pageBody_db54f5{
+    background-color: rgba(248, 3, 3, 0);
+}
+.container__11d72.themed_b152d4 {
+    background-color: rgba(248, 3, 3, 0);
+}
+.chat__52833.container__7590f {
+    background-color: rgba(248, 3, 3, 0);
+}
+.content__1a4fe.container__10dc7 {
+    background-color: rgba(248, 3, 3, 0);
+}
+.container__6a848.adminUpsell_bd0de2 {
+    background-color: rgba(0, 0, 0, 0.637);
+}
+.directoryModal-YJsOMv,
+.keyboardShortcutsModal__74c71,
+.autocomplete_df266d,
+.root__6d24f:not(.carouselModal-1eUFoq),
+.scroller__5fda0 {
+    background-color: rgba(0, 0, 0, 0.9) !important;
+}
+
+.background_cb0a80{
+  background-color: rgba(255, 0, 0, 0);
+}
+.title__7f0f1.background_cb0a80.forumOrHome__75784.container__11d72.themed_b152d4 {
+    background-color: rgba(255, 0, 0, 0);
+}
+
+/*hovering over files for background + glowing*/
+
+.container_dbadf5 {
+  background-color: rgba(0, 0, 0, 0.02);
+  border-radius: 14px; 
+  transition: box-shadow 0.3s ease, background-color 0.3s ease;
+  box-shadow: 0 0 10px rgba(0, 0, 255, 0); 
+}
+.container_dbadf5:hover {
+  box-shadow: 0 0 20px hsl(var(--accent-hsl));
+  background-color: rgba(0, 0, 0, 0.219); 
+}
+
+/*Update Notify*/
+.tipTitle_a7615c{
+   background-color: rgba(0, 0, 0, 0.02); 
+  content: "Latest Theme Update:";
+}
+.tip__6e299::before {
+  content: " Latest Discord Theme Update: Added this message and added a hover element for files";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: var(--linear); 
+  border-radius: 0 0 14px 14px;
+  z-index: 999;
+  box-shadow: inset 0px 0px 10px 1px hsla(var(--accent-hue), 100%, 50%, 0.8),
+    0px 0px 10px 1px hsla(var(--accent-hue), 80%, 50%, 0.8);
+}
+
+.tipTitle_a7615c{
+    background-color: rgba(255, 0, 0, 0); 
+}
+.container__4bde3{
+    background-color: rgba(255, 0, 0, 0); 
+}
+.wrapper__66cd5{
+  background-color: rgba(0, 0, 0, 0.7);
+}
+.inset__0bfb3 {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+/*Verbesserter Offlinebildschirm*/
+.content__0e954{
+  background-color: #000000b1;
+  border-radius: 20px;
+        box-shadow: inset 0px 0px 10px 1px hsla(var(--accent-hue), 100%, 50%, 0.8),
+                0px 0px 10px 1px hsla(var(--accent-hue), 80%, 50%, 0.8);
+height: 24%;
+margin-top: -50px;
+}
+.problems__755eb{
+  background-color: #000000ea;
+  box-shadow: 0px 0px 50px 1px hsla(var(--accent-hue), 100%, 50%, 0.8),
+    0px 0px 10px 1px hsla(var(--accent-hue), 80%, 50%, 0.8);
+}
+/*Hintergrund für "Wo möchtest du hin?" bei strg + k*/
+.input__848cd{
+  background-color: rgba(0, 0, 0, 0.4);
+    box-shadow: 0px 0px 50px 1px hsla(var(--accent-hue), 100%, 50%, 0.8),
+    0px 0px 10px 1px hsla(var(--accent-hue), 80%, 50%, 0.8);
+}
+
+.section_efc22d {
+  background-color: rgb(0, 0, 0);
+}
+.protip__84833{
+  margin-top: -16px;
+  background-color: rgba(0, 0, 0, 0);
+  border-radius: 15px  15px 15px 15px;
+}
+/*pinned msgs*/
+.messageGroupCozy__2dedd{
+  background-color: rgba(0, 0, 0, 0.692);
+}
+/*removes a gray object from slash-commands*/
+.wrapper__7a35f{
+  background-color: rgba(0, 0, 0, 0);
+}
+
+/*------------------------------------------------------------------------------------*/
 
 /*
 reactions
@@ -203,7 +599,7 @@ type Box
   filter: blur(7px);
   clip-path: polygon(-100% -100%, -100% 200%, 0.68% 200%, 0.68% 1%, 99.32% 1%, 99.32% 99%, 0.68% 99%, 0.68% 200%, 200% 200%, 200% 1%);
   z-index: 1;
-    transform: scale(1.01);
+    transform: scale(1.005);
 }
 .channelTextArea__2e60f.channelTextArea__56a36::after {
   content: "";
@@ -340,6 +736,7 @@ pinned Messages
 */
 
  .messagesPopoutWrap_b3b384{
+  backdrop-filter: blur(var(--popout-blur));
      border-radius: px;
   border: 1px solid hsla(var(--accent-hsl),var(--accent-opacity)); 
   border-color: hsla(var(--accent-hue), 100%, 50%, 0.8); /* Saturation und Lightness bleiben konstant, Hue aus --accent-hsl */
@@ -349,6 +746,7 @@ pinned Messages
 }
 
 /*screen Sharing UI patch*/
+
 
 
 .button_afdfd9.lookFilled__19298.colorBrand_b2253e.sizeSmall__71a98.grow__4c8a4:hover {
@@ -383,7 +781,7 @@ pinned Messages
 
 .option_be8b2e:hover{
   border-radius: px;
-  border: 1px solid hsla(var(--accent-hsl),var(--accent-opacity)); 
+  border: 1px solid hsla(var(--accent-hsl),var(--accent-opacity)) ; 
   border-color: hsla(var(--accent-hue), 100%, 50%, 0.8); /* Saturation und Lightness bleiben konstant, Hue aus --accent-hsl */
   background-color: hsla(var(--accent-hue), 80%, 50%, 0.8);
       box-shadow: inset 0px 0px 10px 1px hsla(var(--accent-hue), 100%, 50%, 0.8),
@@ -401,14 +799,16 @@ pinned Messages
 
 .sourceThumbnail__21c87 {
   border-radius: 4px;
- border: 1px solid hsla(var(--accent-hsl),var(--accent-opacity)); 
+ border:  1px solid hsla(var(--accent-hsl),var(--accent-opacity)); 
   border-color: hsla(var(--accent-hue), 100%, 50%, 0.8); /* Saturation und Lightness bleiben konstant, Hue aus --accent-hsl */
       box-shadow: inset 0px 0px 10px 2px hsla(var(--accent-hue), 100%, 50%, 0.8),
                 0px 0px 10px 2px hsla(var(--accent-hue), 80%, 50%, 0.8);
 }
 
+
 .modalSize__42455.root_a28985.fullscreenOnMobile__96797.rootWithShadow__073a7 {
   background-color: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(var(--popout-blur));
 }
 
 /*
@@ -416,6 +816,7 @@ Post station button Popout
 */
 
 .container__20de0.recentMentionsPopout__826a9.group-spacing-16 {
+  backdrop-filter: blur(var(--popout-blur));
   border-radius: 10px;
   border: 1px solid hsla(var(--accent-hsl),var(--accent-opacity)); 
   border-color: hsla(var(--accent-hue), 100%, 50%, 0.8); /* Saturation und Lightness bleiben konstant, Hue aus --accent-hsl */
@@ -454,6 +855,20 @@ background-image: var(--background);
 z-index: 3;
 }
 
+
+.container_d6dad3 {
+  backdrop-filter: blur(var(--popout-blur));
+  border-radius: 10px;
+  border: 1px solid hsla(var(--accent-hsl),var(--accent-opacity)); 
+  border-color: hsla(var(--accent-hue), 100%, 50%, 0.8); /* Saturation und Lightness bleiben konstant, Hue aus --accent-hsl */
+  background-color: rgba(0, 0, 0, 0.5);
+      box-shadow: inset 0px 0px 5px 1px hsla(var(--accent-hue), 100%, 50%, 0.8),
+                0px 0px 10px 2px hsla(var(--accent-hue), 80%, 50%, 0.8);
+}
+
+.focused_f9cf2c {
+  background-color: transparent !important;
+}
 
 
 
@@ -3416,73 +3831,7 @@ body {
  *  SCREENSHARE SETTINGS
  *
  */
-.tile-3POX2m:hover .sourceThumbnail-ERDcZE {
-  box-shadow: inset 0 0 0 2px hsla(var(--accent-hsl), var(--accent-opacity));
-}
-.tile-3POX2m .sourceThumbnail-ERDcZE {
-  border-radius: var(--card-radius);
-}
-.tile-3POX2m .sourceThumbnail-ERDcZE.selected-1i-g6T {
-  box-shadow: inset 0 0 0 2px hsla(var(--accent-hsl), var(--accent-opacity));
-}
 
-.card-m7VgZ8 {
-  height: auto;
-  border-radius: var(--input-radius);
-  background-color: rgba(var(--textarea-color), var(--textarea-alpha));
-  border: none;
-  color: var(--textarea-text-color);
-  transition: var(--transition-time) var(--transition-type);
-}
-.card-m7VgZ8:focus {
-  background-color: rgba(var(--textarea-color), var(--textarea-alpha-focus));
-}
-
-.qualitySettingsContainer-2LjkfM {
-  padding: 8px;
-  background-color: var(--card-color);
-  border-radius: var(--card-radius);
-  border: none;
-}
-
-/*
- *
- *  SERVER QUESTIONS
- *
- */
-.gradient-qt4Dwd {
-  background: linear-gradient(rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.85) 100%);
-}
-
-.prompt-R8SyL4 {
-  background-color: var(--popout-color) !important;
-  border-radius: var(--popout-radius) !important;
-  box-shadow: var(--popout-shadow) !important;
-  backdrop-filter: blur(var(--popout-blur));
-}
-.prompt-R8SyL4 .navButtons-R_NSvX {
-  background-color: transparent;
-}
-
-.optionButton-1W9f7G {
-  background-color: var(--card-color);
-  border-radius: var(--card-radius);
-  border: none;
-}
-.optionButton-1W9f7G:hover {
-  background-color: var(--card-color-hover);
-  border: none;
-}
-.checkIcon-3eAeN_, .memberCount-2G9rxE {
-  background-color: hsl(var(--accent-hsl));
-}
-.checkIcon-3eAeN_ path, .memberCount-2G9rxE path {
-  fill: var(--accent-text-color);
-}
-
-.memberCount-2G9rxE .text-xs-normal-3O7EaX {
-  color: var(--accent-text-color) !important;
-}
 
 /*
  *
@@ -5707,12 +6056,13 @@ body::before {
     width: 10px;
     height: 10px;
     left: 272px;
-    top: 0px;
+    top: -px;
     background-image: url(https://i.imgur.com/ba7D1D3.jpg);
     background-size: var(--background-size); /* Verwendet die festgelegte Größe */
     background-position: var(--background-position-x) var(--background-position-y);
     border-radius: var(--border-radius);
     z-index: 9999;
+    scale: 0.5;
 }
 .container-2hGpaU {
   background-color: transparent;
@@ -5810,9 +6160,8 @@ body::before {
 .profileBannerPreview-3mLIdO .fakeActivityWrapper-2i1oU- {
   padding: 0 16px 0;
 }
-:root {
-    --background: url(https://i.imgur.com/247ldAo.jpg);
-}
+
+
 .theme-light,
 .theme-dark {
     --background-primary: var(--remove);
@@ -5848,147 +6197,4 @@ body::before {
 .attachedBars_da3c74,
 .callContainer_cbde45 {
     background-color: var(--bg-ui) !important;
-}
-
-.mentioned__58017 {
-  position: relative;
-  background-color: transparent;
-  padding: 2px;  
-  border: 0px solid hsl(var(--accent-hsl)); 
-  border-radius: 15px; 
-  box-shadow: 0px 0px 10px 5px hsl(var(--accent-hsl)), 
-  inset 0px 0px 10px 5px hsl(var(--accent-hsl));
-}
-
-
-.directoryModal-YJsOMv,
-.keyboardShortcutsModal__74c71,
-.autocomplete_df266d,
-.menu_dc52c6,
-.root__6d24f:not(.carouselModal-1eUFoq),
-.scroller__5fda0 {
-    background-color: rgba(0, 0, 0, 0.9) !important;
-}
-
-.background_cb0a80{
-  background-color: rgba(255, 0, 0, 0);
-}
-.title__7f0f1.background_cb0a80.forumOrHome__75784.container__11d72.themed_b152d4 {
-    background-color: rgba(255, 0, 0, 0);
-}
-
-.pageBody_db54f5{
-    background-color: rgba(248, 3, 3, 0);
-}
-.container__11d72.themed_b152d4 {
-    background-color: rgba(248, 3, 3, 0);
-}
-.chat__52833.container__7590f {
-    background-color: rgba(248, 3, 3, 0);
-}
-.content__1a4fe.container__10dc7 {
-    background-color: rgba(248, 3, 3, 0);
-}
-.container__6a848.adminUpsell_bd0de2 {
-    background-color: rgba(0, 0, 0, 0.637);
-}
-.directoryModal-YJsOMv,
-.keyboardShortcutsModal__74c71,
-.autocomplete_df266d,
-.menu_dc52c6,
-.root__6d24f:not(.carouselModal-1eUFoq),
-.scroller__5fda0 {
-    background-color: rgba(0, 0, 0, 0.9) !important;
-}
-
-.background_cb0a80{
-  background-color: rgba(255, 0, 0, 0);
-}
-.title__7f0f1.background_cb0a80.forumOrHome__75784.container__11d72.themed_b152d4 {
-    background-color: rgba(255, 0, 0, 0);
-}
-
-/*hovering over files for background + glowing*/
-
-.container_dbadf5 {
-  background-color: rgba(--bgch);
-  border-radius: 14px; 
-  transition: box-shadow 0.3s ease, background-color 0.3s ease;
-  box-shadow: 0 0 10px rgba(0, 0, 255, 0); 
-}
-.container_dbadf5:hover {
-  box-shadow: 0 0 20px hsl(var(--accent-hsl));
-  background-color: rgba(0, 0, 0, 0.6); 
-}
-
-/*Update Notify*/
-.tipTitle_a7615c{
-   background-color: rgb(0, 0, 0); 
-  content: "Latest Theme Update:";
-}
-.tip__6e299::before {
-  content: " Latest Discord Theme Update: Added this message and added a hover element for files";
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: rgb(0, 0, 0); 
-  border-radius: 0 0 14px 14px;
-  z-index: 999;
-  box-shadow: inset 0px 0px 10px 1px hsla(var(--accent-hue), 100%, 50%, 0.8),
-    0px 0px 10px 1px hsla(var(--accent-hue), 80%, 50%, 0.8);
-}
-
-.tipTitle_a7615c{
-    background-color: rgba(255, 0, 0, 0); 
-}
-.container__4bde3{
-    background-color: rgba(255, 0, 0, 0); 
-}
-.wrapper__66cd5{
-  background-color: rgba(0, 0, 0, 0.7);
-}
-.inset__0bfb3 {
-  background-color: rgba(0, 0, 0, 0.1);
-}
-/*Verbesserter Offlinebildschirm*/
-.content__0e954{
-  background-color: #000000b1;
-  border-radius: 20px;
-        box-shadow: inset 0px 0px 10px 1px hsla(var(--accent-hue), 100%, 50%, 0.8),
-                0px 0px 10px 1px hsla(var(--accent-hue), 80%, 50%, 0.8);
-height: 24%;
-margin-top: -50px;
-}
-.problems__755eb{
-  background-color: #000000ea;
-  box-shadow: 0px 0px 50px 1px hsla(var(--accent-hue), 100%, 50%, 0.8),
-    0px 0px 10px 1px hsla(var(--accent-hue), 80%, 50%, 0.8);
-}
-/*Hintergrund für "Wo möchtest du hin?" bei strg + k*/
-.input__848cd{
-  background-color: rgba(0, 0, 0, 0.4);
-    box-shadow: 0px 0px 50px 1px hsla(var(--accent-hue), 100%, 50%, 0.8),
-    0px 0px 10px 1px hsla(var(--accent-hue), 80%, 50%, 0.8);
-}
-
-.section_efc22d {
-  background-color: rgb(0, 0, 0);
-}
-.protip__84833{
-  margin-top: -16px;
-  background-color: rgba(0, 0, 0, 0);
-  border-radius: 15px  15px 15px 15px;
-}
-/*pinned msgs*/
-.messageGroupCozy__2dedd{
-  background-color: rgba(0, 0, 0, 0.692);
-}
-/*removes a gray object from slash-commands*/
-.wrapper__7a35f{
-  background-color: rgba(0, 0, 0, 0);
 }
