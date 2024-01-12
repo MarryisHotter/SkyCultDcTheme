@@ -108,29 +108,7 @@
   --linear: linear-gradient(to right, #ff0400, #0011ff);
   --linear-transparent: linear-gradient(to right, #ff040071, #0011ff65);
 }
-/*-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
-/*Update Notify*/
-.tipTitle_a7615c{
-   background-color: rgba(0, 0, 0, 0.02); 
-  content: "Latest Theme Update:";
-}
 
-.tip__6e299::before {
-  content: " Latest Discord Theme Update: Added this message and added a hover element for files";
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background: var(--linear); 
-  border-radius: 0 0 14px 14px;
-  z-index: 999;
-  box-shadow: inset 0px 0px 10px 1px hsla(var(--accent-hue), 100%, 50%, 0.8),
-    0px 0px 10px 1px hsla(var(--accent-hue), 80%, 50%, 0.8);
-}/*-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 .theme-dark,
 .theme-light {
   --background-modifier-hover: rgba(255,255,255,0.075);
@@ -142,7 +120,6 @@
 }
 
 /*-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
-
 
 /*
 Friend list patch
@@ -190,9 +167,19 @@ reply UI fix
 blur backgrounds
 */
 
+.userPopoutInner_f545a3.userProfileInner__8065b.userProfileInnerThemedNonPremium__3d0a6::before{
+  margin-top: 8px;
+  margin-left: 4px;
+  backdrop-filter: blur(6px);
+ background-color: rgba(0, 0, 0, 0.432);
+ border: 0px solid hsl(var(--accent-hsl)); 
+  border-radius: 15px; 
+  box-shadow: 0px 0px 5px 2px hsl(var(--accent-hsl)), inset 0px 0px 5px 2px hsl(var(--accent-hsl));
+}
+
+
 .userPopoutOuter_d739b2.userProfileOuter__46bb7.userProfileOuterUnthemed__48723.profileColors__2e2f0.theme-dark{
-backdrop-filter: blur(6px);
-background-color: rgba(0, 0, 0, 0.562);
+ background-color: rgba(0, 0, 0, 0.432);
  border: 0px solid hsl(var(--accent-hsl)); 
   border-radius: 15px; 
   box-shadow: 0px 0px 5px 2px hsl(var(--accent-hsl)), inset 0px 0px 5px 2px hsl(var(--accent-hsl));
@@ -466,8 +453,27 @@ some Backgrounds
   background-color: rgba(0, 0, 0, 0.219); 
 }
 
-
-
+/*Update Notify*/
+.tipTitle_a7615c{
+   background-color: rgba(0, 0, 0, 0.02); 
+  content: "Latest Theme Update:";
+}
+.tip__6e299::before {
+  content: " Latest Discord Theme Update: Added this message and added a hover element for files";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: var(--linear); 
+  border-radius: 0 0 14px 14px;
+  z-index: 999;
+  box-shadow: inset 0px 0px 10px 1px hsla(var(--accent-hue), 100%, 50%, 0.8),
+    0px 0px 10px 1px hsla(var(--accent-hue), 80%, 50%, 0.8);
+}
 
 .tipTitle_a7615c{
     background-color: rgba(255, 0, 0, 0); 
