@@ -116,6 +116,28 @@
 }
 
 /*-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/*Update Notify*/
+.tipTitle_a7615c{
+   background-color: rgba(0, 0, 0, 0.02); 
+  content: "Latest Theme Update:";
+}
+.tip__6e299::before {
+  content: " Latest Discord Theme Update: Added this message and added a hover element for files";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: var(--linear); 
+  border-radius: 0 0 14px 14px;
+  z-index: 999;
+  box-shadow: inset 0px 0px 10px 1px hsla(var(--accent-hue), 100%, 50%, 0.8),
+    0px 0px 10px 1px hsla(var(--accent-hue), 80%, 50%, 0.8);
+}
+/*-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 
 /*
 Friend list patch
