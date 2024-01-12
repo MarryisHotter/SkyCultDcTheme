@@ -1,6 +1,3 @@
-:root {
-  --accent-hue: 0;
-  --background: url(https://i.imgur.com/247ldAo.jpg);
   --app-blur: 0px;
   --app-margin: 24px;
   --app-radius: 10px;
@@ -105,8 +102,6 @@
   --background-mentioned-hover: hsl(var(--white-300-hsl)/0.08);
   --mention-foreground: var(--Text);
   --mention-background: var(--Hover);
-  --linear: linear-gradient(to right, #ff0400, #0011ff);
-  --linear-transparent: linear-gradient(to right, #ff040071, #0011ff65);
 }
 
 .theme-dark,
@@ -450,29 +445,7 @@ some Backgrounds
 }
 .container_dbadf5:hover {
   box-shadow: 0 0 20px hsl(var(--accent-hsl));
-  background-color: rgba(0, 0, 0, 0.219); 
-}
-
-/*Update Notify*/
-.tipTitle_a7615c{
-   background-color: rgba(0, 0, 0, 0.02); 
-  content: "Latest Theme Update:";
-}
-.tip__6e299::before {
-  content: " Latest Discord Theme Update: Added this message and added a hover element for files";
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background: var(--linear); 
-  border-radius: 0 0 14px 14px;
-  z-index: 999;
-  box-shadow: inset 0px 0px 10px 1px hsla(var(--accent-hue), 100%, 50%, 0.8),
-    0px 0px 10px 1px hsla(var(--accent-hue), 80%, 50%, 0.8);
+  background-color: rgba(--bgpg); 
 }
 
 .tipTitle_a7615c{
