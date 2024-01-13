@@ -468,7 +468,7 @@ some Backgrounds
 }
 .container_dbadf5:hover {
   box-shadow: 0 0 20px hsl(var(--accent-hsl));
-  background-color: rgba(--bgpg); 
+  background-color: rgba(var(--bgc)); 
 }
 
 .tipTitle_a7615c{
