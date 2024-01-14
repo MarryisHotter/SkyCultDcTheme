@@ -206,7 +206,12 @@ background-color: rgba(0, 0, 0, 0);
 backdrop-filter: blur(px);
 background-color: rgba(0, 0, 0, 0);
 
-  
+/*Hover over Text for more visibility*/
+.markup_a7e664.messageContent__21e69:hover{
+ background-color: rgba(var(--bgc)); 
+ border-radius: 8px;
+}
+
 }
 
 .menu_dc52c6:before {
