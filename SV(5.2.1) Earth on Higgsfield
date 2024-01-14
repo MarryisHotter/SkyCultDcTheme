@@ -1,0 +1,6 @@
+:root {
+  --accent-hue: 189;
+  --background: url(https://i.imgur.com/Ycl8nAe.jpg);
+  --linear: linear-gradient(to right, #00fff2, #0004ff);
+  --linear-transparent: linear-gradient(to right, #00fff271, #4c00ff65);
+}
