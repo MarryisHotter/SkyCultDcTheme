@@ -1,4 +1,4 @@
-:root{
+:root {
   --app-blur: 0px;
   --app-margin: 24px;
   --app-radius: 10px;
@@ -40,7 +40,7 @@
   --textarea-color: 255,255,255;
   --textarea-alpha: 0.1;
   --textarea-alpha-focus: 0.15;
-  --textarea-text-color: #fff;
+  --textarea-text-color: #ffffff;
   --textarea-placeholder-color: #aaa;
   --textarea-radius: 22px;
   --textarea-block-color: rgba(0,0,0,0.4);
@@ -61,7 +61,7 @@
   --switch-slider-color: hsla(218, 100%, 50%, 0.85);
   --switch-knob-color: hsl(0, 100%, 50%);
   --popout-color: rgba(0,0,0,0.55);
-  --popout-blur: 4px;
+  --popout-blur: 8px;
   --popout-header-opacity: 0.3;
   --popout-header-shadow: 0px 3px 9px 0px rgba(0,0,0,0.25);
   --popout-radius: var(--app-radius);
@@ -84,7 +84,7 @@
   --border-radius: 50%;
   --tooltip-radius: var(--app-radius);
   --tooltip-shadow: var(--elevation-high);
-  --interactive-normal: #e0dddd;
+  --interactive-normal: #ffffff;
   --interactive-hover: hsla(var(--accent-hsl),var(--accent-opacity));
   --interactive-active: hsla(var(--accent-hsl),var(--accent-opacity));
   --interactive-muted: #8f8f8f;
@@ -115,28 +115,6 @@
   --text-link: hsl(var(--accent-hsl));
 }
 
-/*-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
-/*Update Notify*/
-.tipTitle_a7615c{
-   background-color: rgba(0, 0, 0, 0.02); 
-  content: "Latest Theme Update:";
-}
-.tip__6e299::before {
-  content: " Latest Discord Theme Update: Added this message and added a hover element for files";
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background: var(--linear); 
-  border-radius: 0 0 14px 14px;
-  z-index: 999;
-  box-shadow: inset 0px 0px 10px 1px hsla(var(--accent-hue), 100%, 50%, 0.8),
-    0px 0px 10px 1px hsla(var(--accent-hue), 80%, 50%, 0.8);
-}
 /*-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 
 /*
@@ -186,13 +164,14 @@ blur backgrounds
 */
 
 .userPopoutInner_f545a3.userProfileInner__8065b.userProfileInnerThemedNonPremium__3d0a6::before{
-  margin-top: 8px;
+  margin-bottom: px;
   margin-left: 4px;
   backdrop-filter: blur(6px);
  background-color: rgba(0, 0, 0, 0.432);
  border: 0px solid hsl(var(--accent-hsl)); 
   border-radius: 15px; 
-  box-shadow: 0px 0px 5px 2px hsl(var(--accent-hsl)), inset 0px 0px 5px 2px hsl(var(--accent-hsl));
+  scale: 1.025;
+
 }
 
 
@@ -215,19 +194,43 @@ backdrop-filter: blur(6px);
 }
 
 
-.browser_fece63.container__8261a{
-backdrop-filter: blur(6px);
-background-color: rgba(0, 0, 0, 0.562);
- border: 0px solid hsl(var(--accent-hsl)); 
-  border-radius: 15px; 
-  box-shadow: 0px 0px 5px 2px hsl(var(--accent-hsl)), inset 0px 0px 5px 2px hsl(var(--accent-hsl));
-}
-
 .scroller__750f5.thin_b1c063.scrollerBase_dc3aa9{
-backdrop-filter: blur(6px);
+backdrop-filter: blur(px);
+background-color: rgba(0, 0, 0, 0);
  border: 0px solid hsl(var(--accent-hsl)); 
   border-radius: 5px; 
   box-shadow: 0px 0px 5px 2px hsl(var(--accent-hsl)), inset 0px 0px 5px 2px hsl(var(--accent-hsl));
+}
+
+.menu_dc52c6.flexible__7055b::before{
+backdrop-filter: blur(px);
+background-color: rgba(0, 0, 0, 0);
+
+  
+}
+
+.menu_dc52c6:before {
+  position: absolute;
+  content: " ";
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: var(--popout-color);
+  border-radius: var(--popout-radius);
+  box-shadow: var(--popout-shadow);
+  backdrop-filter: blur(var(--popout-blur));
+  pointer-events: none;
+  z-index: -1;
+}
+
+
+.theme-dark.layer_ec16dd::before{
+backdrop-filter: blur(px);
+background-color: rgba(0, 0, 0, 0);
+  box-shadow: 0px 0px 5px 2px hsl(var(--accent-hsl)), inset 0px 0px 5px 2px hsl(var(--accent-hsl));
+
+  
 }
 
 .root__26810.withHeader__43cb3.root_a28985.large_def294.fullscreenOnMobile__96797.rootWithShadow__073a7{
@@ -264,6 +267,10 @@ background-color: rgba(0, 0, 0, 0.562);
 /*
 scale fixing
 */
+
+.banner__6d414.popoutBanner__9f5b9{
+scale: 1;
+}
 
 .root__649bb.tile_a411a4{
 scale: 0.95;
@@ -468,7 +475,29 @@ some Backgrounds
 }
 .container_dbadf5:hover {
   box-shadow: 0 0 20px hsl(var(--accent-hsl));
-  background-color: rgba(var(--bgc)); 
+  background-color: rgba(0, 0, 0, 0.219); 
+}
+
+/*Update Notify*/
+.tipTitle_a7615c{
+   background-color: rgba(0, 0, 0, 0.02); 
+  content: "Latest Theme Update:";
+}
+.tip__6e299::before {
+  content: " Latest Discord Theme Update: Added this message and added a hover element for files";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: var(--linear); 
+  border-radius: 0 0 14px 14px;
+  z-index: 999;
+  box-shadow: inset 0px 0px 10px 1px hsla(var(--accent-hue), 100%, 50%, 0.8),
+    0px 0px 10px 1px hsla(var(--accent-hue), 80%, 50%, 0.8);
 }
 
 .tipTitle_a7615c{
