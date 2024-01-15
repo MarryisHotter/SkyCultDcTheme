@@ -508,7 +508,7 @@ some Backgrounds
 }
 .container_dbadf5:hover {
   box-shadow: 0 0 20px hsl(var(--accent-hsl));
-  background-color: rgba(0, 0, 0, 0.219); 
+  background-color: rgba(var(--bgc)); 
 }
 
 /*Update Notify*/
