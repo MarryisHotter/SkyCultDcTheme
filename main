@@ -692,7 +692,12 @@ type Box
   border-radius: 9px;
   z-index: 2;
 }
-
+.message__80c10.systemMessage__6e6a4.groupStart__56db5.wrapper__09ecc.compact__54ecc.zalgo__39311.isSystemMessage__2ef37{
+  background-color: #000000;
+}
+.wrapper__66cd5.emojiPickerHasTabWrapper__80686{
+  background-color: #00000000;
+}
 
  .scrollableContainer__33e06.themedBackground__6b1b6.webkit__8d35a{
   position: relative;
