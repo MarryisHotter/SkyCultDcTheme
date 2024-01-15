@@ -509,7 +509,12 @@ some Backgrounds
 .container_dbadf5:hover {
   box-shadow: 0 0 20px hsl(var(--accent-hsl));
   background-color: rgba(var(--bgc)); 
+  
 }
+.username_d30d99.desaturateUserColors_b72bd3.clickable_d866f1:hover{
+  background-color: rgba(var(--bgc));
+  border-radius: 5px;
+  }
 
 /*Update Notify*/
 .tipTitle_a7615c{
