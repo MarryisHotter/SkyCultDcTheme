@@ -568,6 +568,10 @@ margin-top: -50px;
     box-shadow: 0px 0px 50px 1px hsla(var(--accent-hue), 100%, 50%, 0.8),
     0px 0px 10px 1px hsla(var(--accent-hue), 80%, 50%, 0.8);
 }
+/*"Boost this server" button is now no longer normal-discord-gray*/
+.shinyButton_fc8363.button_afdfd9.lookFilled__19298.colorPrimary__6ed40.sizeMedium_c6fa98.grow__4c8a4{
+  background-color: #000000c0;
+}
 
 .section_efc22d {
   background-color: rgb(0, 0, 0);
