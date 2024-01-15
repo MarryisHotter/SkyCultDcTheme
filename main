@@ -1,4 +1,11 @@
 :root {
+  --accent-hue: 263;
+  --background: url(https://i.imgur.com/71hQW8P.jpg);
+  --linear: linear-gradient(to right, #ff0000, #6200ff);
+  --linear-transparent: linear-gradient(to right, #ff000071, #4c00ff65);
+}
+
+:root {
   --app-blur: 0px;
   --app-margin: 24px;
   --app-radius: 10px;
@@ -163,6 +170,17 @@ reply UI fix
 blur backgrounds
 */
 
+.root_a28985.small__05f7b.fullscreenOnMobile__96797.rootWithShadow__073a7{
+  margin-bottom: px;
+  margin-left: 4px;
+  backdrop-filter: blur(6px);
+ background-color: rgba(0, 0, 0, 0.432);
+ border: 0px solid hsl(var(--accent-hsl)); 
+  border-radius: 15px; 
+  scale: 1.025;
+
+}
+
 .userPopoutInner_f545a3.userProfileInner__8065b.userProfileInnerThemedNonPremium__3d0a6::before{
   margin-bottom: px;
   margin-left: 4px;
@@ -206,13 +224,10 @@ background-color: rgba(0, 0, 0, 0);
 backdrop-filter: blur(px);
 background-color: rgba(0, 0, 0, 0);
 
-/*Hover over Text for more visibility*/
-.markup_a7e664.messageContent__21e69:hover{
- background-color: rgba(var(--bgc)); 
- border-radius: 8px;
-}
 
 }
+
+
 
 .menu_dc52c6:before {
   position: absolute;
@@ -221,12 +236,16 @@ background-color: rgba(0, 0, 0, 0);
   height: 100%;
   top: 0;
   left: 0;
-  background-color: var(--popout-color);
+  background-color: rgba(0, 0, 0, 0);
   border-radius: var(--popout-radius);
   box-shadow: var(--popout-shadow);
-  backdrop-filter: blur(var(--popout-blur));
+  backdrop-filter: blur(6px);
   pointer-events: none;
   z-index: -1;
+}
+
+.menu__5cf7f:before {
+  display: none;
 }
 
 
@@ -268,6 +287,15 @@ background-color: rgba(0, 0, 0, 0.562);
  border: 0px solid hsl(var(--accent-hsl)); 
   border-radius: 15px; 
   box-shadow: 0px 0px 5px 2px hsl(var(--accent-hsl)), inset 0px 0px 5px 2px hsl(var(--accent-hsl));
+}
+
+/*
+Hover over Text for more visibility
+*/
+
+.markup_a7e664.messageContent__21e69:hover{
+ background-color: rgba(var(--bgc)); 
+ border-radius: 8px;
 }
 /*
 scale fixing
