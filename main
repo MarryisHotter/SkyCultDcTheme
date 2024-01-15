@@ -694,7 +694,7 @@ deleting Message
 */
 
 .message__04d9f{
-background: var(--linear); 
+background: var(--linear-transparent); 
   border: 1px solid hsla(var(--accent-hsl),var(--accent-opacity)); 
   border-color: hsla(var(--accent-hue), 100%, 50%, 0.8); /* Saturation und Lightness bleiben konstant, Hue aus --accent-hsl */
 
