@@ -834,7 +834,10 @@ pinned Messages
   border-color: hsla(var(--accent-hue), 100%, 50%, 0.8); /* Saturation und Lightness bleiben konstant, Hue aus --accent-hsl */
   background-color: rgba(0, 0, 0, 0.5);
 }
-
+/*makes settings -> connections -> more invisible*/
+.container__18937.root_a28985.small__05f7b.rootWithShadow__073a7 {
+  background-color: #00000000;
+}
 
 .qualitySettingsContainer__5cacd{
   border-radius: px;
