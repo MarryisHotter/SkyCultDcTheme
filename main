@@ -882,7 +882,18 @@ pinned Messages
 .popout_a6e77f.none__51a8f.scrollerBase_dc3aa9{
   background-color: rgba(0, 0, 0, 1);
 }
-
+.message__80c10.systemMessage__6e6a4.groupStart__56db5.wrapper__09ecc.compact__54ecc.zalgo__39311.isSystemMessage__2ef37{
+  background-color: #000000;
+}
+.wrapper__66cd5.emojiPickerHasTabWrapper__80686{
+  background-color: #00000000;
+}
+.vc-addon-card:hover{
+  background-color: #000000af;
+}
+.vc-addon-card{
+  background-color: #0000003b;
+}
 
  .flex_f5fbb7.horizontalReverse_dc209c.justifyBetween_b44898.alignStretch_e239ef.noWrap__5c413.footer__89240.footerSeparator__57d95{
   background-color: rgba(0, 0, 0, 0.25);
