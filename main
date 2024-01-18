@@ -106,13 +106,14 @@
   --mention-background: var(--Hover);
 }
 /*-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
 /*Update Notify*/
 .tipTitle_a7615c{
    background-color: rgba(0, 0, 0, 0.02); 
   content: "Latest Theme Update:";
 }
 .tip__6e299::before {
-  content: " Latest Discord Theme Update: Added this message and added a hover element for files";
+  content: " Latest Discord Theme Update: ";
   position: absolute;
   top: 0;
   right: 0;
@@ -139,6 +140,28 @@
 }
 
 /*-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+/*
+micro patches
+*/
+
+.tile_f5f57f.noBorder__88f73.idle__90385.tile_a411a4.noBorder__74418{
+  border-radius: 8px;
+}
+
+.tile_f5f57f.noBorder__88f73.idle__90385.tile_a411a4.noBorder__74418:hover{
+  border-radius: 8px;
+}
+
+.button__66e8c.buttonColor_a6eb73.buttonActive__407a7.button_afdfd9.lookFilled__19298.colorBrand_b2253e.sizeSmall__71a98.fullWidth__7c3e8.grow__4c8a4.button__66e8c{
+  border-radius: 15px;
+  background: var(--linear-transparent);
+  box-shadow: 0px 0px 5px 2px hsl(var(--accent-hsl)), inset 0px 0px 5px 2px hsl(var(--accent-hsl));
+} 
+
+.focusLock__10aa5{
+  border-radius: 20px;
+}
 
 /*
 Friend list patch
@@ -190,7 +213,7 @@ blur backgrounds
   margin-bottom: px;
   margin-left: 4px;
   backdrop-filter: blur(6px);
- background-color: rgba(0, 0, 0, 0.432);
+ background-color: rgba(0, 0, 0, 0.404);
  border: 0px solid hsl(var(--accent-hsl)); 
   border-radius: 15px; 
   scale: 1.025;
