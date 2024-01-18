@@ -114,7 +114,7 @@
   content: "Latest Theme Update:";
 }
 .tip__6e299::before {
-  content: " Latest Discord Theme Update: ";
+  content: " Latest Discord Theme Update: micro fixes and layout adjustments in theme and code. Migrated to new update system";
   position: absolute;
   top: 0;
   right: 0;
