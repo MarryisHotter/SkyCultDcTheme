@@ -926,7 +926,21 @@ pinned Messages
 .vc-addon-card{
   background-color: #0000003b;
 }
-
+/*ReadAllPlugin button is turned from blue to accent-hue*/
+.button_afdfd9.lookFilled__19298.colorBrand_b2253e.sizeMin__94642.grow__4c8a4{
+  background-color: #ff0400;
+  }
+/*Made Event creation easier to read*/
+.root_a28985.fullscreenOnMobile__96797.rootWithShadow__073a7{
+  background-color: rgba(0, 0, 0, 0.658);
+  border-radius: 21px;
+}
+/*fixes the Event-sharing button being garbage-gray*/
+.button_afdfd9.lookFilled__19298.colorPrimary__6ed40.sizeSmall__71a98.grow__4c8a4{
+background-color: rgba(0, 0, 0, 0.5);
+    box-shadow: inset 0px 0px 2px 3px hsla(var(--accent-hue), 100%, 50%, 0.8),
+                0px 0px 2px 1px hsla(var(--accent-hue), 100%, 50%, 0.8);
+}
  .flex_f5fbb7.horizontalReverse_dc209c.justifyBetween_b44898.alignStretch_e239ef.noWrap__5c413.footer__89240.footerSeparator__57d95{
   background-color: rgba(0, 0, 0, 0.25);
 }
