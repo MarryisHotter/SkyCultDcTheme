@@ -217,6 +217,14 @@ reply UI fix
 blur backgrounds
 */
 
+.root__46d4f.elevationHigh__80ea8{
+ background-color: rgba(0, 0, 0, 0.493);
+ border: 2px solid hsl(var(--accent-hsl)); 
+  border-radius: 15px; 
+  box-shadow: 0px 0px 5px 2px hsl(var(--accent-hsl)), inset 0px 0px 5px 2px hsl(var(--accent-hsl));
+  backdrop-filter: blur(6px);
+  
+}
 .quickswitcher_a3d29a{
  background-color: rgba(0, 0, 0, 0.384);
  border: 2px solid hsl(var(--accent-hsl)); 
