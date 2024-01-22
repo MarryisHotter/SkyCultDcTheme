@@ -1189,11 +1189,11 @@ server Sidebar speaking Fix and Icon
 picture box animation
 */
 
-.focusLock__10aa5{
+.wrapper__8e1d7{
     border-color: hsla(var(--accent-hue), 100%, 50%, 0.8); /* Saturation und Lightness bleiben konstant, Hue aus --accent-hsl */
-    box-shadow: 0px 0px 5px 1px hsla(var(--accent-hue), 100%, 50%, 0.8),
-                0px 0px 10px 1px hsla(var(--accent-hue), 80%, 50%, 0.8);
-    animation: shadow-grow 0.7s ease-out forwards;
+
+    animation: shadow-grow 0.1s ease-out forwards;
+    animation-delay: 0.s;
 }
 
 @keyframes shadow-grow {
