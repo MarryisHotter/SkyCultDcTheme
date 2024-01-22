@@ -217,6 +217,54 @@ reply UI fix
 blur backgrounds
 */
 
+.quickswitcher_a3d29a{
+ background-color: rgba(0, 0, 0, 0.384);
+ border: 2px solid hsl(var(--accent-hsl)); 
+  border-radius: 15px; 
+  box-shadow: 0px 0px 5px 2px hsl(var(--accent-hsl)), inset 0px 0px 5px 2px hsl(var(--accent-hsl));
+  backdrop-filter: blur(6px);
+}
+
+.scroller__750f5.thin_b1c063.scrollerBase_dc3aa9::before{
+ background-color: rgba(0, 0, 0, 0.288);
+ border: 2px solid hsl(var(--accent-hsl)); 
+  border-radius: 15px; 
+  box-shadow: 0px 0px 5px 2px hsl(var(--accent-hsl)), inset 0px 0px 5px 2px hsl(var(--accent-hsl));
+  backdrop-filter: blur(px);
+}
+
+.listRow__60937:hover{
+ background-color: rgba(0, 0, 0, 0.288);
+ border: 2px solid hsl(var(--accent-hsl)); 
+  border-radius: 15px; 
+  box-shadow: 0px 0px 5px 2px hsl(var(--accent-hsl)), inset 0px 0px 5px 2px hsl(var(--accent-hsl));
+  backdrop-filter: blur(6px);
+}
+
+.userProfileModalOuter__3fe6b.userProfileOuter__46bb7.userProfileOuterUnthemed__48723.profileColors__2e2f0.theme-dark{
+ background-color: rgba(0, 0, 0, 0.288);
+ border: 2px solid hsl(var(--accent-hsl)); 
+  border-radius: 15px; 
+  box-shadow: 0px 0px 5px 2px hsl(var(--accent-hsl)), inset 0px 0px 5px 2px hsl(var(--accent-hsl));
+  backdrop-filter: blur(6px);
+}
+
+.authorize__4ddfc{
+ background-color: rgba(0, 0, 0, 0.582);
+ border: 0px solid hsl(var(--accent-hsl)); 
+  border-radius: 15px; 
+  box-shadow: 0px 0px 5px 2px hsl(var(--accent-hsl)), inset 0px 0px 5px 2px hsl(var(--accent-hsl));
+  backdrop-filter: blur(6px);
+}
+
+.oauth2Wrapper_ff9227.root_a28985.fullscreenOnMobile__96797.rootWithShadow__073a7{
+ background-color: rgba(0, 0, 0, 0);
+ border: 0px solid hsl(var(--accent-hsl)); 
+  border-radius: 15px; 
+  box-shadow: 0px 0px 5px 2px hsl(var(--accent-hsl)), inset 0px 0px 5px 2px hsl(var(--accent-hsl));
+  backdrop-filter: blur(6px);
+}
+
 .channelChatWrapper__3e57d{
  background-color: rgba(0, 0, 0, 0);
  border: 0px solid hsl(var(--accent-hsl)); 
