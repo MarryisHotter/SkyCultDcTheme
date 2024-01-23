@@ -146,6 +146,11 @@
 micro patches
 */
 
+
+.scroller_e89578.videoGrid__8b6fc.thin_b1c063.scrollerBase_dc3aa9.fade_ba0fa0{
+  margin-top: -20px;
+}
+
 .tile_f5f57f.noBorder__88f73.idle__90385.tile_a411a4.noBorder__74418{
   border-radius: 8px;
 }
@@ -223,6 +228,30 @@ reply UI fix
 /*
 blur backgrounds
 */
+
+.vc-rdb-input.channelTextArea__56a36{
+ background-color: rgba(0, 0, 0, 0.356);
+ border: 0px solid hsl(var(--accent-hsl)); 
+  border-radius: 15px; 
+  box-shadow: 0px 0px 5px 2px hsl(var(--accent-hsl)), inset 0px 0px 5px 2px hsl(var(--accent-hsl));
+  backdrop-filter: blur(6px);
+}
+
+.browser_fece63.container__8261a{
+ background-color: rgba(0, 0, 0, 0.356);
+ border: 0px solid hsl(var(--accent-hsl)); 
+  border-radius: 15px; 
+  box-shadow: 0px 0px 5px 2px hsl(var(--accent-hsl)), inset 0px 0px 5px 2px hsl(var(--accent-hsl));
+  backdrop-filter: blur(6px);
+}
+
+.quickSelectPopout_c0cf80.regionSelectPopout__0127b{
+ background-color: rgba(0, 0, 0, 0.356);
+ border: 0px solid hsl(var(--accent-hsl)); 
+  border-radius: 15px; 
+  box-shadow: 0px 0px 5px 2px hsl(var(--accent-hsl)), inset 0px 0px 5px 2px hsl(var(--accent-hsl));
+  backdrop-filter: blur(6px);
+}
 
 .focusLock__10aa5{
  background-color: rgba(0, 0, 0, 0);
@@ -521,7 +550,7 @@ marginBottom40__9109c{
 }
 
 .scroller__750f5.thin_b1c063.scrollerBase_dc3aa9::before{
- background-color: rgba(0, 0, 0, 0.288);
+ background: var(--linear);
  border: 2px solid hsl(var(--accent-hsl)); 
   border-radius: 15px; 
   box-shadow: 0px 0px 5px 2px hsl(var(--accent-hsl)), inset 0px 0px 5px 2px hsl(var(--accent-hsl));
@@ -569,7 +598,7 @@ marginBottom40__9109c{
 }
 
 .animatorBottom_b2d32e.translate_c2f6c4.didRender_f1da13{
- background-color: rgb(255, 0, 0);
+ background-color: rgba(255, 0, 0, 0);
  border: 0px solid hsl(var(--accent-hsl)); 
   border-radius: 15px; 
   box-shadow: 0px 0px 5px 2px hsl(var(--accent-hsl)), inset 0px 0px 5px 2px hsl(var(--accent-hsl));
@@ -626,7 +655,7 @@ marginBottom40__9109c{
 
 
 .animatorRight__5895e.translate_c2f6c4.didRender_f1da13{
- background-color: rgba(0, 0, 0, 0.432);
+ background-color: rgba(0, 0, 0, 0.411);
  border: 0px solid hsl(var(--accent-hsl)); 
   border-radius: 15px; 
   box-shadow: 0px 0px 5px 2px hsl(var(--accent-hsl)), inset 0px 0px 5px 2px hsl(var(--accent-hsl));
@@ -654,7 +683,7 @@ backdrop-filter: blur(6px);
 
 .scroller__750f5.thin_b1c063.scrollerBase_dc3aa9{
 backdrop-filter: blur(px);
-background-color: rgba(0, 0, 0, 0);
+background: rgba(0, 0, 0, 0);
  border: 0px solid hsl(var(--accent-hsl)); 
   border-radius: 5px; 
   box-shadow: 0px 0px 5px 2px hsl(var(--accent-hsl)), inset 0px 0px 5px 2px hsl(var(--accent-hsl));
