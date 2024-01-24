@@ -146,6 +146,16 @@
 micro patches
 */
 
+.button_ae2689.spacing_dd16ee.button_afdfd9.lookFilled19298.colorPrimary6ed40.sizeMedium_c6fa98.grow4c8a4{
+  background-color: var(--accent-hue);
+  z-index: 2;
+}
+.button_afdfd9.lookFilled19298.colorPrimary6ed40.sizeMedium_c6fa98.grow4c8a4{
+  background-color: #000000;
+    border-color: hsla(var(--accent-hue), 100%, 50%, 0.8); /* Saturation und Lightness bleiben konstant, Hue aus --accent-hsl */
+    box-shadow: inset 0px 0px 5px 1px hsla(var(--accent-hue), 100%, 50%, 0.8),
+                0px 0px 1px 1px hsla(var(--accent-hue), 80%, 50%, 0.8);
+}
 
 .scroller_e89578.videoGrid__8b6fc.thin_b1c063.scrollerBase_dc3aa9.fade_ba0fa0{
   margin-top: -20px;
@@ -228,6 +238,15 @@ reply UI fix
 /*
 blur backgrounds
 */
+
+
+.modal_f53429.scrollbarGhostHairline_c9a45f.scrollbar_d66c5e.root_a28985.fullscreenOnMobile__96797.rootWithShadow__073a7{
+ background-color: rgba(0, 0, 0, 0.356);
+ border: 0px solid hsl(var(--accent-hsl)); 
+  border-radius: 15px; 
+  box-shadow: 0px 0px 5px 2px hsl(var(--accent-hsl)), inset 0px 0px 5px 2px hsl(var(--accent-hsl));
+  backdrop-filter: blur(6px);
+}
 
 .vc-rdb-input.channelTextArea__56a36{
  background-color: rgba(0, 0, 0, 0.356);
