@@ -1,3 +1,4 @@
+@import url(https://raw.githubusercontent.com/MarryisHotter/SkyCultDcTheme/main/main);
 :root {
 --accent-hue: 180;
   --background: url(https://i.imgur.com/bgmVeyt.jpg);
