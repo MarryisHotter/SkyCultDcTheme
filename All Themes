@@ -1,17 +1,23 @@
-@import url("https://raw.githubusercontent.com/MarryisHotter/SkyCultDcTheme/main/V4.1%20(Black%20Hole)");
-//
-@import url("https://raw.githubusercontent.com/MarryisHotter/SkyCultDcTheme/main/V4.1%20(Aurora)");
-//
-@import url("https://raw.githubusercontent.com/MarryisHotter/SkyCultDcTheme/main/V4.1%20(Blue%20Phoenix)");
-//
-@import url("https://raw.githubusercontent.com/MarryisHotter/SkyCultDcTheme/main/V4.1%20(Earth%20on%20Higgsfield)");
-//
-@import url("https://raw.githubusercontent.com/MarryisHotter/SkyCultDcTheme/main/V4.1%20(Mon%20Viso%20Aurora)");
-//
-@import url("https://raw.githubusercontent.com/MarryisHotter/SkyCultDcTheme/main/V4.1%20(Neutron%20Star)");
-//
-@import url("https://raw.githubusercontent.com/MarryisHotter/SkyCultDcTheme/main/V4.1%20(Particles)");
-//
-@import url("https://raw.githubusercontent.com/MarryisHotter/SkyCultDcTheme/main/V4.1%20(Red%20Moon)");
-//
-@import url("https://raw.githubusercontent.com/MarryisHotter/SkyCultDcTheme/main/V4.1%20(Winter%20%2B%20Milkyway)")
+@import url("https://raw.githubusercontent.com/MarryisHotter/SkyCultDcTheme/main/Aurora");
+
+@import url("https://raw.githubusercontent.com/MarryisHotter/SkyCultDcTheme/main/Black%20Hole");
+
+@import url("https://raw.githubusercontent.com/MarryisHotter/SkyCultDcTheme/main/Blue%20Phoenix");
+
+@import url("https://raw.githubusercontent.com/MarryisHotter/SkyCultDcTheme/main/Earth%20on%20Higgsfield");
+
+@import url("https://raw.githubusercontent.com/MarryisHotter/SkyCultDcTheme/main/Mon%20Viso%20Aurora");
+
+@import url("https://raw.githubusercontent.com/MarryisHotter/SkyCultDcTheme/main/Mon%20Viso%20Mattina");
+
+@import url("https://raw.githubusercontent.com/MarryisHotter/SkyCultDcTheme/main/Neutron%20Star");
+
+@import url("https://raw.githubusercontent.com/MarryisHotter/SkyCultDcTheme/main/Particles");
+
+@import url("https://raw.githubusercontent.com/MarryisHotter/SkyCultDcTheme/main/Red%20Moon");
+
+@import url("https://raw.githubusercontent.com/MarryisHotter/SkyCultDcTheme/main/Winter%20%2B%20Milkyway");
+
+@import url("https://raw.githubusercontent.com/MarryisHotter/SkyCultDcTheme/main/Winter%20Bridge");
+
+@import url("https://raw.githubusercontent.com/MarryisHotter/SkyCultDcTheme/main/lone%20Tree");
