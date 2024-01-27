@@ -192,7 +192,13 @@ micro patches
                 0px 0px 5px 2px hsla(var(--accent-hue), 150%, 50%, 0.8);
 }
 
-
+.body__91006 {
+background-color: #000000;
+}
+/*wip of settings of a specific channel -> Berechtigungen -> Mitglieder hinzufügen*/
+.autocompleteShadow__902d2{
+  background-color: #000000;
+}
 /*
 Friend list patch
 */
