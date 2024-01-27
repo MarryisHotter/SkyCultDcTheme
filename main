@@ -998,6 +998,20 @@ some Backgrounds
 .title__7f0f1.background_cb0a80.forumOrHome__75784.container__11d72.themed_b152d4 {
     background-color: rgba(255, 0, 0, 0);
 }
+.button_ae2689.spacing_dd16ee.button_afdfd9.lookFilled__19298.colorPrimary__6ed40.sizeMedium_c6fa98.grow__4c8a4{
+  background-color: var(--accent-hue);
+  z-index: 9999;
+}
+.button_afdfd9.lookFilled__19298.colorPrimary__6ed40.sizeMedium_c6fa98.grow__4c8a4{
+  background-color: #000000;
+    border-color: hsla(var(--accent-hue), 100%, 50%, 0.8); /* Saturation und Lightness bleiben konstant, Hue aus --accent-hsl */
+    box-shadow: inset 0px 0px 5px 1px hsla(var(--accent-hue), 100%, 50%, 0.8),
+                0px 0px 1px 1px hsla(var(--accent-hue), 80%, 50%, 0.8);
+}
+/*streaming button being gray fix*/
+.container_b181b6{
+  background-color: #00000000;
+}
 
 /*hovering over files for background + glowing*/
 
