@@ -258,6 +258,50 @@ background: var(--linear-transparent);
  
 }
 
+.streamPreview__1846c{
+  background: #00000000;
+  sclae: 1;
+  z-index: 3;
+}
+
+.previewContainer_bb1924{
+  background: #00000000;
+  sclae: 1;
+  z-index: 3;
+}
+
+.emptyPreviewContainer__4c433.previewImage__624a7{
+  background: var(--linear-transparent);;
+  sclae: 1;
+  z-index: 3;
+}
+
+.body__91006{
+  background: var(--linear-transparent);
+  sclae: 1;
+}
+
+.button__9491f.button_afdfd9.lookFilled__19298.colorPrimary__6ed40.buttonSize_ee7672.fullWidth__7c3e8.grow__4c8a4{
+  background: hsl(var(--accent-hsl));
+   border: px solid hsl(var(--accent-hsl)); /* Hier ändern Sie die Farbe: hsl(Hue, Saturation, Lightness) */
+  box-shadow: inset 0px 0px 5px 2px hsla(var(--accent-hue), 100%, 50%, 0.8),
+                0px 0px 5px 2px hsla(var(--accent-hue), 150%, 50%, 0.8);
+}
+
+.streamPreview__1846c{
+  background: #00000000;
+  sclae: 1;
+  margin-left: -15px;
+  border-radius: 10px
+}
+
+.streamPreviewWrapper__0890e.mounted__0be91.body__91006{
+  background: #00000000;
+  sclae: 1;
+}
+
+
+
 /*
 reply UI fix
 */
