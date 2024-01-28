@@ -1,4 +1,9 @@
-
+:root {
+  --accent-hue: 263;
+  --background: url(https://i.imgur.com/71hQW8P.jpg);
+  --linear: linear-gradient(to right, #ff0000, #6200ff);
+  --linear-transparent: linear-gradient(to right, #ff000071, #4c00ff65);
+}
 
 :root {
   --app-blur: 0px;
@@ -228,6 +233,12 @@ background-color: #000000;
 }
 
 .container__03857.thin_b1c063.scrollerBase_dc3aa9{
+  background-color: #00000015;
+  margin-left: -4px;
+}
+
+
+.popout__24e32{
   background-color: #00000015;
   margin-left: -4px;
 }
