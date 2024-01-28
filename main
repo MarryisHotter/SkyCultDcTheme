@@ -227,6 +227,11 @@ background-color: #000000;
   background: var(--linear-transparent);
 }
 
+.container__03857.thin_b1c063.scrollerBase_dc3aa9{
+  background-color: #00000015;
+  margin-left: -4px;
+}
+
 /*
 Friend list patch
 */
