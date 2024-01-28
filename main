@@ -1,4 +1,5 @@
 
+
 :root {
   --app-blur: 0px;
   --app-margin: 24px;
@@ -197,8 +198,35 @@ background-color: #000000;
 }
 /*wip of settings of a specific channel -> Berechtigungen -> Mitglieder hinzufügen*/
 .autocompleteShadow__902d2{
-  background-color: #000000;
+  filter: drop-shadow(0 0 10px hsl(var(--accent-hsl)));
+  border: 2px solid hsl(var(--accent-hsl)); /* Hier ändern Sie die Farbe: hsl(Hue, Saturation, Lightness) */
+  box-shadow: inset 0px 0px 10px 5px hsla(var(--accent-hue), 100%, 50%, 0.8),
+                0px 0px 10px 5px hsla(var(--accent-hue), 150%, 50%, 0.8);
+  backdrop-filter: blur(6px);
 }
+
+.header__02652{
+  scale: 0.9;
+  margin-left: -10px;
+  margin-right: -10px;
+  margin-bottom: px;
+  border-radius: 7px;
+  background-color: var(--linear);
+ border: 1px solid hsl(var(--accent-hsl));
+}
+
+.autocompleteHeaderBackground__4e6c3{
+  background: var(--linear-transparent);
+}
+
+.autocompleteScroller__653c5.thin_b1c063.scrollerBase_dc3aa9.fade_ba0fa0{
+  background-color: #00000000;
+}
+
+.autocompleteShadow__902d2{
+  background: var(--linear-transparent);
+}
+
 /*
 Friend list patch
 */
