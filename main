@@ -1,4 +1,5 @@
 
+
 :root {
   --app-blur: 0px;
   --app-margin: 24px;
@@ -235,6 +236,13 @@ background-color: #000000;
 .popout__24e32{
   background-color: #00000015;
   margin-left: -4px;
+}
+
+.root_a28985.medium__408de.fullscreenOnMobile__96797.rootWithShadow__073a7{
+  border: 1px solid hsl(var(--accent-hsl)); /* Hier ändern Sie die Farbe: hsl(Hue, Saturation, Lightness) */
+  box-shadow: inset 0px 0px 10px 5px hsla(var(--accent-hue), 100%, 50%, 0.8),
+                0px 0px 10px 5px hsla(var(--accent-hue), 150%, 50%, 0.8);
+ 
 }
 
 /*
