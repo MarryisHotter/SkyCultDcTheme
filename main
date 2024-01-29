@@ -344,6 +344,58 @@ reply UI fix
 blur backgrounds
 */
 
+.react-datepicker.calendarContainer__3d1d2::before {
+  position: absolute;
+  content: " ";
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: var(--linear-transparent);
+  pointer-events: none;
+  z-index: 0;
+   border-radius: 15px; 
+   scale: 1;
+}
+
+.react-datepicker__month{
+  position: relative;
+  content: " ";
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: var(--linear-transparent);
+  pointer-events: none;
+  z-index: -1;
+   border-radius: px; 
+   scale: 1.0;
+   margin-bottom: 10px;
+   margin-top: 10px;
+}
+
+.react-datepicker__header {
+  position: relative;
+  content: " ";
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: var(--linear-transparent);
+  pointer-events: none;
+  z-index: 0;
+   border-radius: px; 
+   scale: 1.1;
+}
+
+.root_a28985.fullscreenOnMobile__96797.rootWithShadow__073a7{
+ background-color: rgba(0, 0, 0, 0);
+ border: 0px solid hsl(var(--accent-hsl)); 
+  border-radius: 15px; 
+  box-shadow: 0px 0px 5px 2px hsl(var(--accent-hsl)), inset 0px 0px 5px 2px hsl(var(--accent-hsl));
+  backdrop-filter: blur(6px);
+}
+
 .scroller__5fda0.thin_b1c063.scrollerBase_dc3aa9.fade_ba0fa0{
  background-color: rgba(0, 0, 0, 0);
  scale: 0;
