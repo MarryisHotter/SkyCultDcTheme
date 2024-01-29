@@ -358,7 +358,16 @@ blur backgrounds
    scale: 1;
 }
 
-.react-datepicker__month{
+react-datepicker__day {
+  background: hsl(var(--accent-hsl)); 
+  scale: ;
+}
+
+.react-datepicker__week{
+  background: var(--linear-transparent);
+}
+
+react-datepicker__month{
   position: relative;
   content: " ";
   width: 100%;
@@ -367,12 +376,16 @@ blur backgrounds
   left: 0;
   background: var(--linear-transparent);
   pointer-events: none;
-  z-index: -1;
-   border-radius: px; 
-   scale: 1.0;
-   margin-bottom: 10px;
-   margin-top: 10px;
+  z-index: ;
+  border-radius: px; 
+  scale: 1.0;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  pointer-events: none;
 }
+
+
+
 
 .react-datepicker__header {
   position: relative;
