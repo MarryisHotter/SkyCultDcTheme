@@ -289,25 +289,25 @@ background: var(--linear-transparent);
 
 .streamPreview__1846c{
   background: #00000000;
-  sclae: 1;
+  scale: 1;
   z-index: 3;
 }
 
 .previewContainer_bb1924{
   background: #00000000;
-  sclae: 1;
+  scale: 1;
   z-index: 3;
 }
 
 .emptyPreviewContainer__4c433.previewImage__624a7{
   background: var(--linear-transparent);;
-  sclae: 1;
+  scale: 1;
   z-index: 3;
 }
 
 .body__91006{
   background: var(--linear-transparent);
-  sclae: 1;
+  scale: 1;
 }
 
 .button__9491f.button_afdfd9.lookFilled__19298.colorPrimary__6ed40.buttonSize_ee7672.fullWidth__7c3e8.grow__4c8a4{
@@ -319,14 +319,14 @@ background: var(--linear-transparent);
 
 .streamPreview__1846c{
   background: #00000000;
-  sclae: 1;
+  scale: 1;
   margin-left: -15px;
   border-radius: 10px
 }
 
 .streamPreviewWrapper__0890e.mounted__0be91.body__91006{
   background: #00000000;
-  sclae: 1;
+  scale: 1;
 }
 
 
@@ -345,6 +345,24 @@ reply UI fix
 /*
 blur backgrounds
 */
+
+
+
+.authBoxExpanded_e57789.authBox__7196a.theme-dark.card__28b25{
+ background: var(--linear-transparent);
+ border: 0px solid hsl(var(--accent-hsl)); 
+ border-radius: px; 
+  margin-bottom: px;
+  backdrop-filter: blur(6px);
+}
+
+.theme-dark.navRow_bb8efc{
+ background: var(--linear-transparent);
+ border: 0px solid hsl(var(--accent-hsl)); 
+  border-radius: px; 
+  margin-bottom: px;
+  backdrop-filter: blur(6px);
+}
 
 .reactionTooltip__9384a{
  background-color: rgba(0, 0, 0, 0.61);
@@ -370,7 +388,7 @@ blur backgrounds
 
 react-datepicker__day {
   background: hsl(var(--accent-hsl)); 
-  scale: ;
+  
 }
 
 .react-datepicker__week{
@@ -386,12 +404,10 @@ react-datepicker__month{
   left: 0;
   background: var(--linear-transparent);
   pointer-events: none;
-  z-index: ;
   border-radius: px; 
   scale: 1.0;
   margin-bottom: 10px;
   margin-top: 10px;
-  pointer-events: none;
 }
 
 
