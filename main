@@ -115,8 +115,9 @@
   content: "Latest Theme Update:";
 }
 .tip__6e299::before {
-  content: " Latest Discord Theme Update: micro fixes and layout adjustments in theme and code. Migrated to new update system";
+  content: "Newest Discord Theme Update: Experience enhanced with micro fixes and a new layout adjustments in both theme and code. Updated system for improved performance";
   position: absolute;
+  height: 100px;
   top: 0;
   right: 0;
   bottom: 0;
@@ -129,6 +130,7 @@
   z-index: 999;
   box-shadow: inset 0px 0px 10px 1px hsla(var(--accent-hue), 100%, 50%, 0.8),
     0px 0px 10px 1px hsla(var(--accent-hue), 80%, 50%, 0.8);
+}
 }
 /*-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 .theme-dark,
