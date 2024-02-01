@@ -115,7 +115,7 @@
   content: "Latest Theme Update:";
 }
 .tip__6e299::before {
-  content: "Newest Discord Theme Update: Experience enhanced with micro fixes and a new layout adjustments in both theme and code. Updated system for improved performance";
+  content: "Newest Discord Theme Update: Experience enhanced with micro fixes and  newer layout adjustments in both theme and code. Updated system for improved performance";
   position: absolute;
   height: 100px;
   top: 0;
@@ -131,7 +131,7 @@
   box-shadow: inset 0px 0px 10px 1px hsla(var(--accent-hue), 100%, 50%, 0.8),
     0px 0px 10px 1px hsla(var(--accent-hue), 80%, 50%, 0.8);
 }
-}
+
 /*-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 .theme-dark,
 .theme-light {
@@ -256,7 +256,14 @@ background-color: #000000;
 sections in server sidebar
 */
 
+/*
+newer message
+*/
 
+.newMessagesBar__8b6d7.barBase__4e0ba{
+  background: var(--linear-transparent);
+  backdrop-filter: blur(6px);
+}
 
 /*
 Friend list patch
@@ -1286,7 +1293,7 @@ mention border fix
 
 
 /*
-jump to new messages
+jump to newer messages
 */
 
 .jumpToPresentBar__0ff7f.barBase__4e0ba{
@@ -3276,7 +3283,7 @@ body {
 
 /*
  *
- *  FORUM NEW POST
+ *  FORUM Nevv POST
  *
  */
 .container-JhuCwn.collapsed-23aTv6 {
