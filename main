@@ -1,5 +1,3 @@
-
-
 :root {
   --app-blur: 0px;
   --app-margin: 24px;
@@ -115,7 +113,7 @@
   content: "Latest Theme Update:";
 }
 .tip__6e299::before {
-  content: "Newest Discord Theme Update: Experience enhanced with micro fixes and  newer layout adjustments in both theme and code. Updated system for improved performance";
+  content: "Newest Discord Theme Update: Improved Discord Timestamps and added a new layout adjustments in both theme and code. Updated system for improved performance";
   position: absolute;
   height: 100px;
   top: 0;
@@ -209,6 +207,14 @@ background-color: #000000;
   box-shadow: inset 0px 0px 10px 5px hsla(var(--accent-hue), 100%, 50%, 0.8),
                 0px 0px 10px 5px hsla(var(--accent-hue), 150%, 50%, 0.8);
   backdrop-filter: blur(6px);
+}
+
+/*Improved Discord Timestamps*/
+.timestamp_a65714 {
+ background-color: rgba(var(--bgc));
+}
+.timestamp_a65714:hover {
+ color: hsla(var(--accent-hue), 100%, 50%);
 }
 
 .header__02652{
