@@ -1,6 +1,3 @@
-
-
-
 :root {
   --app-blur: 0px;
   --app-margin: 24px;
@@ -295,6 +292,7 @@ background: linear-gradient(to left, hsl(var(--accent-hue), 100%, 50%), transpar
 background: linear-gradient(to right, hsl(var(--accent-hue), 100%, 50%), transparent);
     margin-left:5px;
 }
+/*Credit for this feature goes to NyxIsBad (https://betterdiscord.app/developer/NyxIsBad) and the code is taken from the Discord Theme "ClearVision"*/
 /*
 sections in server sidebar
 */
