@@ -113,7 +113,7 @@
   content: "Latest Theme Update:";
 }
 .tip__6e299::before {
-  content: "Newest Discord Theme Update: Experience enhanced with micro fixes and  newer layout adjustments in both theme and code. Updated system for improved performance";
+  content: "Revamped the Server design with Timestamps and upgraded the animation system for better performance. RAM usage currently ranges from 6MB without animations to ~10MB with animations (Instead of ~25MB).";
   position: absolute;
   height: 100px;
   top: 0;
