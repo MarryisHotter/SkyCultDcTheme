@@ -113,7 +113,7 @@
   content: "Latest Theme Update:";
 }
 .tip__6e299::before {
-  content: "Revamped the Server design with Timestamps and upgraded the animation system for better performance. RAM usage currently ranges from 6MB without animations to ~10MB with animations (Instead of ~25MB).";
+  content: "Revamped the Server design with Timestamps and upgraded the animation system for better performance. RAM usage currently ranges from 6MB without animations to ~10MB with animations.";
   position: absolute;
   height: 100px;
   top: 0;
