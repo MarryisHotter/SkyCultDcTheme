@@ -154,6 +154,21 @@
 micro patches
 */
 
+.popout_a6e77f.none__51a8f.scrollerBase_dc3aa9{
+  position: relative;
+  background: var(--linear-transparent);
+  z-index: 0;
+  scale: 1;
+  margin-right: 10px;
+}
+
+.option_be8b2e{
+  position: relative;
+  background: var(--linear-transparent);
+  z-index: 3;
+  margin-right: -px;
+}
+
 .button_afdfd9.lookBlank__7ca0a.transparent.grow__4c8a4{
   scale: 0.9;
 }
@@ -401,6 +416,14 @@ reply UI fix
 /*
 blur backgrounds
 */
+
+.noiseCancellationPopout__06ec4{
+ background-color: rgba(0, 0, 0, 0.486);
+ border: 0px solid hsl(var(--accent-hsl)); 
+  border-radius: 10px; 
+  box-shadow: 0px 0px 5px 2px hsl(var(--accent-hsl)), inset 0px 0px 5px 2px hsl(var(--accent-hsl));
+  backdrop-filter: blur(6px);
+}
 
 .animatorRight__5895e.translate_c2f6c4.didRender_f1da13{
  background-color: rgba(0, 0, 0, 0.048);
@@ -1863,7 +1886,7 @@ pinned Messages
   background-color: rgb(0, 0, 0);
 }
 
-.option_be8b2e:hover{
+option_be8b2e:hover{
   border-radius: px;
   border: 1px solid hsla(var(--accent-hsl),var(--accent-opacity)) ; 
   border-color: hsla(var(--accent-hue), 100%, 50%, 0.8); /* Saturation und Lightness bleiben konstant, Hue aus --accent-hsl */
