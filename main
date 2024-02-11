@@ -153,7 +153,10 @@
 /*
 micro patches
 */
-
+/* Fixed swapping calls left button being Discord-gray*/
+.secondaryButton__68e05.button_afdfd9.lookFilled__19298.colorPrimary__6ed40.sizeXlarge__53ea0.grow__4c8a4{
+  background-color: hsl(var(--accent-hue), 100%, 50%);
+}
 .popout_a6e77f.none__51a8f.scrollerBase_dc3aa9{
   position: relative;
   background: var(--linear-transparent);
