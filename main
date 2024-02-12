@@ -1,6 +1,8 @@
 
 
 
+
+
 :root {
   --app-blur: 0px;
   --app-margin: 24px;
@@ -153,6 +155,13 @@
 /*
 micro patches
 */
+
+.expandedInfo__47bad{
+  
+  background: var(--linear-transparent);
+ 
+}
+
 /* Fixed swapping calls left button being Discord-gray*/
 .secondaryButton__68e05.button_afdfd9.lookFilled__19298.colorPrimary__6ed40.sizeXlarge__53ea0.grow__4c8a4{
   background-color: hsl(var(--accent-hue), 100%, 50%);
