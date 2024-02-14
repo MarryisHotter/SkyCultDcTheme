@@ -2,7 +2,6 @@
 
 
 
-
 :root {
   --app-blur: 0px;
   --app-margin: 24px;
@@ -176,7 +175,7 @@ micro patches
 .popout_a6e77f.none__51a8f.scrollerBase_dc3aa9{
   position: relative;
   background: var(--linear-transparent);
-  z-index: 0;
+  z-index: 5;
   scale: 1;
   margin-right: 10px;
 }
