@@ -1,8 +1,3 @@
-
-
-
-
-
 :root {
   --app-blur: 0px;
   --app-margin: 24px;
@@ -118,7 +113,7 @@
   content: "Latest Theme Update:";
 }
 .tip__6e299::before {
-  content: "Made some small changes to hidden objects";
+  content: "Fixed Discord breaking a few small things in the latest update";
   position: absolute;
   height: 100px;
   top: 0;
