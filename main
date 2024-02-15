@@ -113,7 +113,7 @@
   content: "Latest Theme Update:";
 }
 .tip__6e299::before {
-  content: "Fixed Discord breaking a few small things in the latest update";
+  content: "Fixed a missing dot breaking the hover animation of an Object (More Bug fixes coming soon)";
   position: absolute;
   height: 100px;
   top: 0;
