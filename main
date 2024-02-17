@@ -154,6 +154,12 @@
 micro patches
 */
 
+.container_c344de{
+  border-radius: ; 
+box-shadow: 0px 0px 5px 2px hsl(var(--accent-hsl)), inset 0px 0px 5px 2px hsl(var(--accent-hsl));
+  backdrop-filter: blur(6px);
+}
+
 .divider_a2339a.dividerDefault__1e52f{
   scale: 0;
 }
@@ -2187,7 +2193,7 @@ status changer in Srever Sidebar
 
 
 /*
-,sure?` in server calls UI
+,sure?` in server s UI
 */
 
 .flex_f5fbb7.horizontalReverse_dc209c.justifyBetween_b44898.alignStretch_e239ef.wrap_e504b7.footer__89240.footerSeparator__57d95 {
@@ -2333,7 +2339,7 @@ server setting Sidebar
 }
 
 /*
-DM Call transparenty
+DM  transparenty
 */
 .wrapper_bd2abe.minimum_ebf000 {
     background-color: transparent;
@@ -2361,7 +2367,7 @@ hover box in Server member list Sidebar
 }
 
 /*
-call buttons box fix
+ buttons box fix
 */
   .centerButton__3205b.colorable_c84c4c.red_a51ba8.button_afdfd9.lookBlank__7ca0a.colorBrand_b2253e {
   border-radius: 50%;
@@ -2406,6 +2412,63 @@ server Sidebar
                  margin-top: 5px;
                  
 }
+
+/*
+call buttons
+*/
+
+.buttonsInner_bca8fa.wrapper_c727b6{
+ background-color: rgba(0, 0, 0, 0.352);
+ border: 1px solid hsl(var(--accent-hsl)); 
+  border-radius: 10px; 
+
+  backdrop-filter: blur(6px);
+}
+
+.buttonsInner_bca8fa.wrapper_c727b6:hover{
+ background-color: rgba(0, 0, 0, 0.326);
+ border: 1px solid hsl(var(--accent-hsl)); 
+  border-radius: 10px; 
+box-shadow: 0px 0px 5px 2px hsl(var(--accent-hsl)), inset 0px 0px 5px 2px hsl(var(--accent-hsl));
+
+  backdrop-filter: blur(6px);
+}
+
+.controlButton_ab2899.centerButton__3205b.colorable_c84c4c.primaryDark__6b700.button_afdfd9.lookBlank__7ca0a.colorBrand_b2253e{
+  background: var(--linear-transparent);
+}
+
+.controlButton_ab2899.centerButton__3205b.colorable_c84c4c.primaryDark__6b700.button_afdfd9.lookBlank__7ca0a.colorBrand_b2253e{
+  background: var(--linear-transparent);
+}
+
+.controlButton_ab2899.centerButton__3205b.colorable_c84c4c.white__10e89.button_afdfd9.lookBlank__7ca0a.colorBrand_b2253e{
+  background: var(--linear-transparent);
+  border-radius: 50%;
+  padding: 19px; /* Ändern Sie diesen Wert nach Ihren Wünschen, um den gewünschten Rand zu erzeugen */
+  box-shadow: inset 0px 0px 5px 3px hsla(var(--accent-hue), 100%, 50%, 0.8),
+                0px 0px 10px 3px hsla(var(--accent-hue), 150%, 50%, 0.8);
+}
+
+.staticButton__819a1.centerButton__3205b.colorable_c84c4c.white__10e89.button_afdfd9.lookBlank__7ca0a.colorBrand_b2253e{
+  background: var(--linear);
+  border: px solid hsl(var(--accent-hsl));
+}
+
+.staticButton__819a1.centerButton__3205b.colorable_c84c4c.primaryDark__6b700.button_afdfd9.lookBlank__7ca0a.colorBrand_b2253e{
+  background: var(--linear-transparent);
+  scale: 1;
+}
+
+.controlButton_ab2899.fauxDisabled_e7913a.contextMenuContainer_fc4df6{
+  scale: 1.1;
+}
+
+.controlButton_ab2899.centerButton__3205b.colorable_c84c4c.red_a51ba8.button_afdfd9.lookBlank__7ca0a.colorBrand_b2253e{
+  background: rgb(255, 17, 0);
+  border: px solid hsl(var(--accent-hsl));
+}
+
 /*
 call buttons mini fix
 */
