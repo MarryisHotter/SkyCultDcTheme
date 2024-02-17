@@ -462,6 +462,23 @@ reply UI fix
 blur backgrounds
 */
 
+.buttonsInner_bca8fa.wrapper_c727b6{
+ background-color: rgba(0, 0, 0, 0.352);
+ border: 1px solid hsl(var(--accent-hsl)); 
+  border-radius: 10px; 
+
+  backdrop-filter: blur(6px);
+}
+
+.buttonsInner_bca8fa.wrapper_c727b6:hover{
+ background-color: rgba(0, 0, 0, 0.326);
+ border: 1px solid hsl(var(--accent-hsl)); 
+  border-radius: 10px; 
+box-shadow: 0px 0px 5px 2px hsl(var(--accent-hsl)), inset 0px 0px 5px 2px hsl(var(--accent-hsl));
+
+  backdrop-filter: blur(6px);
+}
+
 /*-----Nitro blur-bgs----*/ 
 
 .premiumBackground__4ce97.background__097ec{
