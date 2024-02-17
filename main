@@ -1,3 +1,5 @@
+
+
 :root {
   --app-blur: 0px;
   --app-margin: 24px;
@@ -103,6 +105,7 @@
   --background-mentioned-hover: hsl(var(--white-300-hsl)/0.08);
   --mention-foreground: var(--Text);
   --mention-background: var(--Hover);
+  --chat-border: var(--accent-hue);
 }
 /*-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 
@@ -113,7 +116,7 @@
   content: "Latest Theme Update:";
 }
 .tip__6e299::before {
-  content: "Fixed a missing dot breaking the hover animation of an Object (More Bug fixes coming soon)";
+  content: "Fixed some unspezified box-shadows (clearer settings) and Nitro-preview layouts";
   position: absolute;
   height: 100px;
   top: 0;
@@ -151,6 +154,28 @@
 micro patches
 */
 
+.divider_a2339a.dividerDefault__1e52f{
+  scale: 0;
+}
+
+.option_be8b2e:hover{
+  background: var(--linear);
+}
+
+.option_be8b2e.focused_a2f507{
+  background: var(--linear);
+}
+
+.background__584e7.selectedBackground_d847da{
+  
+  background: var(--linear);
+ 
+}
+
+.tier2ColumnOuter__0b5e2{
+  box-shadow: inset 0px 0px 5px 1px rgb(255, 0, 187),
+                0px 0px 1px 1px rgb(255, 0, 179);
+}
 
 .content__764ce.skuSelectModalContent__16b0f.thin_b1c063.scrollerBase_dc3aa9{
   
@@ -437,6 +462,68 @@ reply UI fix
 blur backgrounds
 */
 
+/*-----Nitro blur-bgs----*/ 
+
+.premiumBackground__4ce97.background__097ec{
+ background-color: rgba(0, 0, 0, 0.486);
+ border: 0px solid hsl(var(--accent-hsl)); 
+  border-radius: 10px; 
+  box-shadow: 0px 0px 5px 2px hsl(var(--accent-hsl)), inset 0px 0px 5px 2px hsl(var(--accent-hsl));
+  backdrop-filter: blur(6px);
+}
+
+.heroBanner_e16ab1{
+  border-radius: 50px;
+ background-color: rgba(0, 0, 0, 0.486);
+ border: 0px solid hsl(var(--accent-hsl)); 
+  box-shadow: 0px 0px 5px 2px hsl(var(--accent-hsl)), inset 0px 0px 5px 2px hsl(var(--accent-hsl));
+  backdrop-filter: blur(6px);
+}
+
+.shopCard_f7822b:before {
+  position: absolute;
+  content: " ";
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0);
+  border-radius: var(--popout-radius);
+  box-shadow: 0px 0px 10px 10px hsl(var(--accent-hsl)), inset 0px 0px 10px 5px hsl(var(--accent-hsl));
+  backdrop-filter: blur(px);
+  pointer-events: none;
+  z-index: 1;
+}
+
+
+.shopCard_f7822b{
+ background-color: rgba(0, 0, 0, 0.08);
+ border: 2px solid hsl(var(--accent-hsl)); 
+  border-radius: 15px; 
+  box-shadow: 0px 0px 10px 10px hsl(var(--accent-hsl)), inset 0px 0px 15px 10px hsl(var(--accent-hsl)); 
+  backdrop-filter: blur(6px);
+  border-color: var(--chat-border); 
+}
+
+.banner_cc9062.shopBanner__8d00b{
+ background-color: rgb(0, 0, 0);
+ border: 0px solid hsl(var(--accent-hsl)); 
+  border-radius: 15px; 
+  box-shadow: 0px 0px 15px 2px hsl(var(--accent-hsl)), inset 0px 0px 5px 2px hsl(var(--accent-hsl));
+  backdrop-filter: blur(6px);
+}
+
+/*---------*/
+
+.content__764ce.modalContent__3d79f.thin_b1c063.scrollerBase_dc3aa9{
+ background-color: rgba(0, 0, 0, 0.285);
+ border: 0px solid hsl(var(--accent-hsl)); 
+  border-radius: 15px; 
+  box-shadow: 0px 0px 5px 2px hsl(var(--accent-hsl)), inset 0px 0px 5px 2px hsl(var(--accent-hsl));
+  backdrop-filter: blur(6px);
+  margin-right: px;
+}
+
 .innerWrapper_c80bad{
   border-radius: 50px;
  background-color: rgba(0, 0, 0, 0.486);
@@ -606,7 +693,15 @@ react-datepicker__month{
   backdrop-filter: blur(6px);
 }
 
-.colorStandard__5111e.size14_b2af01.description__7af71.formText_e4d957.modeDefault_c1162c{
+.item_b7fb7e.itemFilled__373d7{
+ background-color: rgba(0, 0, 0, 0.326);
+ border: 0px solid hsl(var(--accent-hsl)); 
+  border-radius: 15px; 
+  box-shadow: 0px 0px 5px 2px hsl(var(--accent-hsl)), inset 0px 0px 5px 2px hsl(var(--accent-hsl));
+  backdrop-filter: blur(6px);
+}
+
+colorStandard__5111e.size14_b2af01.description__7af71.formText_e4d957.modeDefault_c1162c{
  background-color: rgba(0, 0, 0, 0.164);
  border: 0px solid hsl(var(--accent-hsl)); 
   border-radius: 15px; 
@@ -1847,6 +1942,7 @@ News UI patch
 */
 
 .modal__6a96b.root_a28985.small__05f7b.fullscreenOnMobile__96797.rootWithShadow__073a7{
+  background: var(--linear);
     border: 1px solid hsla(var(--accent-hsl),var(--accent-opacity)); 
   border-color: hsla(var(--accent-hue), 100%, 50%, 0.8); /* Saturation und Lightness bleiben konstant, Hue aus --accent-hsl */
   box-shadow: inset 0px 0px 10px 2px hsla(var(--accent-hue), 100%, 50%, 0.8),
