@@ -1,3 +1,6 @@
+
+
+
 :root {
   --app-blur: 0px;
   --app-margin: 24px;
@@ -1409,6 +1412,14 @@ background-color: rgba(0, 0, 0, 0);
 
 }
 
+
+.scroller__750f5.thin__62e51.scrollerBase__2b744{
+backdrop-filter: blur(px);
+background: rgba(0, 0, 0, 0);
+ border: 0px solid hsl(var(--accent-hsl)); 
+  border-radius: 5px; 
+  box-shadow: 0px 0px 5px 2px hsl(var(--accent-hsl)), inset 0px 0px 5px 2px hsl(var(--accent-hsl));
+}
 
 
 .menu_dc52c6:before {
