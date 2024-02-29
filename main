@@ -1405,6 +1405,14 @@ background-color: rgba(0, 0, 0, 0);
  
 }
 
+.mutualFriendsList__632b5.mutualFriendsDivider_c21dfe{
+  position: relative;
+  top: 3px;
+  backdrop-filter: blur(6px);
+ border: px solid hsl(var(--accent-hsl)); 
+
+}
+
 .modal_f53429.scrollbarGhostHairline_c9a45f.scrollbar_d66c5e.root_a28985.fullscreenOnMobile__96797.rootWithShadow__073a7{
 backdrop-filter: blur(6px);
 }
