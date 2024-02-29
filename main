@@ -1,6 +1,3 @@
-
-
-
 :root {
   --app-blur: 0px;
   --app-margin: 24px;
@@ -117,7 +114,7 @@
   content: "Latest Theme Update:";
 }
 .tip__6e299::before {
-  content: "Added first WIP-support for the new Mod view feature";
+  content: "Added first WIP-support for the new Mod view feature, fixed DC-Integrations being broken and fixed an issue with missing blur code";
   position: absolute;
   height: 100px;
   top: 0;
@@ -194,7 +191,9 @@ box-shadow: 0px 0px 5px 2px hsl(var(--accent-hsl)), inset 0px 0px 5px 2px hsl(va
   background: var(--linear-transparent);
  
 }
-
+.button__9491f.button_afdfd9.lookFilled__19298.buttonColor__01bf8.buttonSize_ee7672.fullWidth__7c3e8.grow__4c8a4{
+  background-image: var(--linear-transparent);
+}
 /* Fixed swapping calls left button being Discord-gray*/
 .secondaryButton__68e05.button_afdfd9.lookFilled__19298.colorPrimary__6ed40.sizeXlarge__53ea0.grow__4c8a4{
   background-color: hsl(var(--accent-hue), 100%, 50%);
