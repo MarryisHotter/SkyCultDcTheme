@@ -2450,13 +2450,11 @@ server Sidebar
 call buttons
 */
 
-.buttonsInner_bca8fa.wrapper_c727b6{
- background-color: rgba(0, 0, 0, 0.352);
- border: 1px solid hsl(var(--accent-hsl)); 
-  border-radius: 10px; 
-
-  backdrop-filter: blur(6px);
+.staticButton__819a1.centerButton__3205b.colorable_c84c4c.red_a51ba8.button_afdfd9.lookBlank__7ca0a.colorBrand_b2253e{
+  background: rgb(255, 1, 1);
+  border: px solid hsl(var(--accent-hsl));
 }
+
 
 .buttonsInner_bca8fa.wrapper_c727b6:hover{
  background-color: rgba(0, 0, 0, 0.326);
@@ -2511,6 +2509,8 @@ call buttons mini fix
   box-shadow: inset 0px 0px 5px 3px hsla(var(--accent-hue), 100%, 50%, 0.8),
                 0px 0px 10px 3px hsla(var(--accent-hue), 150%, 50%, 0.8);
 }
+
+
 /* 
 general glow for call Buttons
 */
