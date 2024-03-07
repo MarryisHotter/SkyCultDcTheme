@@ -1125,12 +1125,16 @@ notificationSection__179c3{
   box-shadow: 0px 0px 10px 5px hsl(var(--accent-hsl)), inset 0px 0px 5px 2px hsl(var(--accent-hsl));  
 }
 
-.vc-settings-quick-actions-card.cardPrimary_cb7a0e.card__4dc22{
+.wrapper{
  background-color: rgba(0, 0, 0, 0.493);
  border: 1px solid hsl(var(--accent-hsl)); 
   border-radius: px; 
   backdrop-filter: blur(6px);
   box-shadow: 0px 0px 10px 5px hsl(var(--accent-hsl)), inset 0px 0px 5px 2px hsl(var(--accent-hsl));  
+}
+
+.vc-settings-quick-actions-card.cardPrimary_cb7a0e.card__4dc22.boxes-spawned{
+    border: none !important;
 }
 
 .vc-settings-card.cardPrimary_cb7a0e.card__4dc22{
