@@ -152,6 +152,10 @@
 micro patches
 */
 
+.text-element2{
+    background: var(--linear-transparent) !important;
+}
+
 .my-box{
     background: var(--linear-transparent);
 }
