@@ -846,6 +846,31 @@ twoColumnFormSection_abc478.firstSection_bca0cf{
   backdrop-filter: blur(6px);
 }
 
+.animatorRight__5895e.translate_c2f6c4.didRender_f1da13{
+ background-color: rgba(0, 0, 0, 0.505);
+ border: 0px solid hsl(var(--accent-hsl)); 
+  border-radius: 15px; 
+  box-shadow: 0px 0px 15px 2px hsl(var(--accent-hsl)), inset 0px 0px 5px 2px hsl(var(--accent-hsl));
+  backdrop-filter: blur(6px);
+}
+
+.container__03857.thin__62e51.scrollerBase__2b744{
+ background-color: rgba(0, 0, 0, 0)!important;
+ border: 0px solid hsl(var(--accent-hsl)); 
+  border-radius: 15px; 
+  margin-left: 1px;
+  backdrop-filter: blur(6px);
+}
+
+.flex_f5fbb7.vertical__1e37a.justifyCenter__4080c.alignCenter__84269.noWrap__5c413.wrapper_de5239.marginTop40__2b1fe{
+ background-color: none!important;
+ border: none!important; 
+  border-radius: 15px; 
+margin-top: 2px;
+box-shadow: none;
+backdrop-filter: none;
+}
+
 .soundTable_ccf72a{
  background-color: rgba(0, 0, 0, 0.164);
  border: 0px solid hsl(var(--accent-hsl)); 
