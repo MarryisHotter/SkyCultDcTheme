@@ -114,7 +114,7 @@
   content: "Latest Theme Update:";
 }
 .tip__6e299::before {
-  content: "Added first WIP-support for the new Mod view feature, fixed DC-Integrations being broken and fixed an issue with missing blur code";
+  content: "Changed the client-handeling of a few objects to make the Theme run slightly smoother";
   position: absolute;
   height: 100px;
   top: 0;
