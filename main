@@ -1,4 +1,9 @@
 :root {
+    --accent-hue: 0;
+  --background: url(https://i.imgur.com/247ldAo.jpg);
+  --linear: linear-gradient(to right, #ff0400, #0011ff);
+  --linear-transparent: linear-gradient(to right, #ff040071, #0011ff65);
+  --bgc: 0,0,0,0.8;
   --app-blur: 0px;
   --app-margin: 24px;
   --app-radius: 10px;
@@ -114,7 +119,7 @@
   content: "Latest Theme Update:";
 }
 .tip__6e299::before {
-  content: "Discord decided to change a lot of class-names, making out code reference the wrong non-existent items. We are working on it";
+  content: "Discord decided to change a lot of class-names, making out code reference the wrong non-existent items. We are working on it (Essentials have already been fixed)";
   position: absolute;
   height: 100px;
   top: 0;
@@ -1916,12 +1921,12 @@ channel looking on servers
 type Box
 */
 
-.channelTextArea__2e60f.channelTextArea__56a36 {
+.channelTextArea_c2094b.channelTextArea__648e5 {
     margin-top: 10px;
 }
 
 
-.channelTextArea__2e60f.channelTextArea__56a36::before {
+.channelTextArea_c2094b.channelTextArea__648e5::before {
   content: "";
   position: absolute;
   top: 0; right: 0; bottom: 0; left: 0;
@@ -1932,7 +1937,7 @@ type Box
   z-index: 1;
     transform: scale(1.005);
 }
-.channelTextArea__2e60f.channelTextArea__56a36::after {
+.channelTextArea_c2094b.channelTextArea__648e5::after {
   content: "";
   position: absolute;
   top: 0; right: 0; bottom: 92%; left: 99.6%;
@@ -1940,14 +1945,8 @@ type Box
   border-radius: 9px;
   z-index: 2;
 }
-.message__80c10.systemMessage__6e6a4.groupStart__56db5.wrapper__09ecc.compact__54ecc.zalgo__39311.isSystemMessage__2ef37{
-  background-color: #000000;
-}
-.wrapper__66cd5.emojiPickerHasTabWrapper__80686{
-  background-color: #00000000;
-}
 
- .scrollableContainer__33e06.themedBackground__6b1b6.webkit__8d35a{
+ .scrollableContainer_ff917f.themedBackground__3a4c0.webkit__8d35a{
   position: relative;
   border-radius: 10px;
   border: 1px solid hsla(var(--accent-hsl),var(--accent-opacity)); 
@@ -1955,8 +1954,6 @@ type Box
   background-color: rgb(0, 0, 0, 0.6);
   z-index: 3 ;
 }
-
-
 
 /*
 deleting Message
@@ -2213,7 +2210,7 @@ top right Search Bar
   z-index: 1;
 }
 
-.searchBar_e0c60b{
+.searchBar__5a20a{
 border-radius: 10px;
 position: relative;
 background-image: var(--background);
@@ -2743,7 +2740,7 @@ body {
   }
 }
 
-.border_d9a17b.speaking__9b95a {
+.border_d9a17b.speaking_c28527 {
   filter: drop-shadow(0 0 10px hsl(var(--accent-hsl)));
   animation: glowing-band 50s ease-in-out infinite;
   border: 4px solid hsl(var(--accent-hsl)); /* Hier ändern Sie die Farbe: hsl(Hue, Saturation, Lightness) */
@@ -7613,7 +7610,7 @@ body::before {
     --info-warning-foreground: var(--remove);
 
 }
-#app-mount.appMount_fae9dd {
+#app-mount.appMount_c99875 {
     background: center / cover no-repeat var(--background);
 }
 .container4f639:after {
@@ -7635,4 +7632,8 @@ body::before {
 .attachedBars_da3c74,
 .callContainer_cbde45 {
     background-color: var(--bg-ui) !important;
+}
+
+.callContainer__1477d.theme-dark{
+    background: transparent !important;
 }
