@@ -114,7 +114,7 @@
   content: "Latest Theme Update:";
 }
 .tip__6e299::before {
-  content: "Changed the client-handeling of a few objects to make the Theme run slightly smoother";
+  content: "Discord decided to change a lot of class-names, making out code reference the wrong non-existent items. We are working on it";
   position: absolute;
   height: 100px;
   top: 0;
@@ -1015,7 +1015,7 @@ focusLock__10aa5{
   backdrop-filter: blur(6px);
 }
 
-.card_fd0d59.cardPrimary_cb7a0e.card__4dc22.editable_c46920{
+.card_fd0d59.cardPrimary__1ee6a.card__4dc22.editable_c46920{
  background-color: rgba(0, 0, 0, 0.432);
  border: 0px solid hsl(var(--accent-hsl)); 
   border-radius: 15px; 
@@ -1174,11 +1174,11 @@ notificationSection__179c3{
   box-shadow: 0px 0px 10px 5px hsl(var(--accent-hsl)), inset 0px 0px 5px 2px hsl(var(--accent-hsl));  
 }
 
-.vc-settings-quick-actions-card.cardPrimary_cb7a0e.card__4dc22.boxes-spawned{
+.vc-settings-quick-actions-card.cardPrimary__1ee6a.card__4dc22.boxes-spawned{
     border: none !important;
 }
 
-.vc-settings-card.cardPrimary_cb7a0e.card__4dc22{
+.vc-settings-card.cardPrimary__1ee6a.card__4dc22{
  background-color: rgba(0, 0, 0, 0.493);
  border: 1px solid hsl(var(--accent-hsl)); 
   border-radius: px; 
@@ -1216,7 +1216,7 @@ marginBottom40__9109c{
   
 }
 
-.authedApp__51b26.marginBottom8_f4aae3.cardPrimary_cb7a0e.card__4dc22.outline_cb0aed{
+.authedApp__51b26.marginBottom8_f4aae3.cardPrimary__1ee6a.card__4dc22.outline_cb0aed{
  background-color: rgba(0, 0, 0, 0.493);
  border: 1px solid hsl(var(--accent-hsl)); 
   border-radius: px; 
@@ -1226,7 +1226,7 @@ marginBottom40__9109c{
   
 }
 
-.formNotice__8622e.marginBottom40__9109c.cardPrimary_cb7a0e.card__4dc22{
+.formNotice__8622e.marginBottom40__9109c.cardPrimary__1ee6a.card__4dc22{
  background-color: rgba(0, 0, 0, 0.493);
  border: 1px solid hsl(var(--accent-hsl)); 
   border-radius: px; 
