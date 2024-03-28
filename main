@@ -1,9 +1,4 @@
 :root {
-    --accent-hue: 0;
-  --background: url(https://i.imgur.com/247ldAo.jpg);
-  --linear: linear-gradient(to right, #ff0400, #0011ff);
-  --linear-transparent: linear-gradient(to right, #ff040071, #0011ff65);
-  --bgc: 0,0,0,0.8;
   --app-blur: 0px;
   --app-margin: 24px;
   --app-radius: 10px;
