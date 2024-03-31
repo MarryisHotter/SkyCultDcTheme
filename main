@@ -146,8 +146,185 @@
 
 /*-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 
+/*
+fix
+*/
+
+.select_fe2671.open_cd27aa.lookFilled__9c1ef{
+    background: var(--linear);
+}
+
+.popout_a6e77f.none_ff9f86.scrollerBase__65223{
+    background: var(--linear);
+    margin-right: -10px;
+
+}
+
+.select_fe2671.lookFilled__9c1ef{
+    background: var(--linear);
+
+}
+
+.popout_a6e77f.thin__62e51.scrollerBase__65223{
+    background: var(--linear);
+
+}
+
+.option_eb83e4{
+    background: var(--linear);
+
+}
+
+.option_eb83e4:hover{
+    background: var(--linear-transparent);
+    background-color: #0000004f;
+
+
+}
+
+
+
 .spoilerContent__37bfa.spoilerMarkdownContent__2b8f8.hidden_f44e41{
   background: var(--linear-transparent);
+}
+
+
+.wrapper2{
+    pointer-events: none!important;
+}
+
+.modalSize__8ea81.root_a28985.fullscreenOnMobile__05784.rootWithShadow_d20cd6{
+ background-color: rgba(0, 0, 0, 0.326);
+ border: 1px solid hsl(var(--accent-hsl)); 
+  border-radius: 10px; 
+box-shadow: 0px 0px 5px 2px hsl(var(--accent-hsl)), inset 0px 0px 5px 2px hsl(var(--accent-hsl));
+
+  backdrop-filter: blur(6px);
+}
+
+.container_c96c91.recentMentionsPopout__40c54{
+ background-color: rgba(0, 0, 0, 0.409);
+ border: 1px solid hsl(var(--accent-hsl)); 
+  border-radius: 10px; 
+box-shadow: 0px 0px 5px 2px hsl(var(--accent-hsl)), inset 0px 0px 5px 2px hsl(var(--accent-hsl));
+
+  backdrop-filter: blur(6px);
+}
+
+.container_a35729.root_a28985.rootWithShadow_d20cd6{
+ background-color: rgba(0, 0, 0, 0.409);
+ border: 1px solid hsl(var(--accent-hsl)); 
+  border-radius: 10px; 
+box-shadow: 0px 0px 5px 2px hsl(var(--accent-hsl)), inset 0px 0px 5px 2px hsl(var(--accent-hsl));
+  backdrop-filter: blur(6px);
+}
+
+.scroller__3fc84.thin__62e51.scrollerBase__65223{
+  background: none;
+}
+
+.autocompleteInner_ad9e21.autocompleteInner__0bf3d{
+  background: none;
+}
+
+.autocomplete__743a5.autocomplete__2e602.autocompleteAttached__5d2a6{
+    background: var(--linear-transparent);
+    background-color: #000000b7;
+
+}
+
+.clipContainer_ab9cf6{
+    background: var(--linear-transparent);
+    background-color: #000000b7;
+
+}
+
+.messagesPopoutWrap__10dd1{
+ background-color: rgba(0, 0, 0, 0.409);
+ border: 1px solid hsl(var(--accent-hsl)); 
+  border-radius: 10px; 
+box-shadow: 0px 0px 5px 2px hsl(var(--accent-hsl)), inset 0px 0px 5px 2px hsl(var(--accent-hsl));
+  backdrop-filter: blur(6px);
+}
+
+.applicationStore__444b9{
+background-color: #00000000;
+}
+
+.innerWrapper_fd8553{
+ background-color: rgba(0, 0, 0, 0.409);
+ border: 1px solid hsl(var(--accent-hsl)); 
+
+box-shadow: 0px 0px 5px 2px hsl(var(--accent-hsl)), inset 0px 0px 5px 2px hsl(var(--accent-hsl));
+  backdrop-filter: blur(6px);
+}
+
+.root_a28985 small_f8e677.fullscreenOnMobile__05784.rootWithShadow_d20cd6{
+ background-color: rgba(0, 0, 0, 0.409);
+ border: 1px solid hsl(var(--accent-hsl)); 
+  border-radius: 10px; 
+box-shadow: 0px 0px 5px 2px hsl(var(--accent-hsl)), inset 0px 0px 5px 2px hsl(var(--accent-hsl));
+  backdrop-filter: blur(6px);
+}
+
+.container__2e9cc{
+ background-color: rgba(0, 0, 0, 0.409);
+ border: 1px solid hsl(var(--accent-hsl)); 
+  border-radius: 10px; 
+box-shadow: 0px 0px 5px 2px hsl(var(--accent-hsl)), inset 0px 0px 5px 2px hsl(var(--accent-hsl));
+  backdrop-filter: blur(6px);
+}
+
+.modal__2624f.root_a28985.medium_b9df4c.fullscreenOnMobile__05784.rootWithShadow_d20cd6{
+ background-color: rgba(0, 0, 0, 0.409);
+ border: 1px solid hsl(var(--accent-hsl)); 
+  border-radius: 10px; 
+box-shadow: 0px 0px 5px 2px hsl(var(--accent-hsl)), inset 0px 0px 5px 2px hsl(var(--accent-hsl));
+  backdrop-filter: blur(6px);
+}
+
+.root_a28985.small_f8e677.fullscreenOnMobile__05784.rootWithShadow_d20cd6{
+ background-color: rgba(0, 0, 0, 0.409);
+ border: 1px solid hsl(var(--accent-hsl)); 
+  border-radius: 10px; 
+box-shadow: 0px 0px 5px 2px hsl(var(--accent-hsl)), inset 0px 0px 5px 2px hsl(var(--accent-hsl));
+  backdrop-filter: blur(6px);
+}
+
+.modal__0ed85.root_a28985.fullscreenOnMobile__05784.rootWithShadow_d20cd6{
+ background-color: rgba(0, 0, 0, 0.409);
+ border: 1px solid hsl(var(--accent-hsl)); 
+  border-radius: 10px; 
+box-shadow: 0px 0px 5px 2px hsl(var(--accent-hsl)), inset 0px 0px 5px 2px hsl(var(--accent-hsl));
+  backdrop-filter: blur(6px);
+}
+
+.root_a28985.fullscreenOnMobile__05784.rootWithShadow_d20cd6{
+ background-color: rgba(0, 0, 0, 0.409);
+ border: 1px solid hsl(var(--accent-hsl)); 
+  border-radius: 10px; 
+box-shadow: 0px 0px 5px 2px hsl(var(--accent-hsl)), inset 0px 0px 5px 2px hsl(var(--accent-hsl));
+  backdrop-filter: blur(6px);
+}
+
+.wrapper__0757b.emojiPickerHasTabWrapper__63198{
+ background-color: rgba(0, 0, 0, 0.553);
+ border: 1px solid hsl(var(--accent-hsl)); 
+  border-radius: 10px; 
+box-shadow: 0px 0px 5px 2px hsl(var(--accent-hsl)), inset 0px 0px 5px 2px hsl(var(--accent-hsl));
+  backdrop-filter: blur(6px);
+}
+
+.content_b28aab.body__1451f.thin__62e51.scrollerBase__65223{
+ background-color: rgba(0, 0, 0, 0.553);
+
+  backdrop-filter: blur(6px);
+}
+
+.flex_f18b02.horizontal__4848b.justifyStart__6f8c8.alignCenter__9c6ed.noWrap__5c413.header__5e5a6.modalHeaderCustomGift_d0f226{
+ background-color: rgba(0, 0, 0, 0.553);
+
+  backdrop-filter: blur(6px);
 }
 
 /*
@@ -269,13 +446,13 @@ box-shadow: 0px 0px 5px 2px hsl(var(--accent-hsl)), inset 0px 0px 5px 2px hsl(va
   border-radius: 8px;
 }
 
-.button__66e8c.buttonColor_a6eb73.buttonActive__407a7.button_afdfd9.lookFilled__19298.colorBrand_b2253e.sizeSmall__71a98.fullWidth__7c3e8.grow__4c8a4.button__66e8c{
+.button_b82d53 buttonColor__7bad9 button__581d0 lookFilled__950dd colorBrand__27d57 sizeSmall_da7d10 grow__4c8a4 button_b82d53{
   border-radius: 15px;
   background: var(--linear-transparent);
   box-shadow: 0px 0px 5px 2px hsl(var(--accent-hsl)), inset 0px 0px 5px 2px hsl(var(--accent-hsl));
 } 
 
-.button__66e8c.buttonColor_a6eb73.buttonActive__407a7.button_afdfd9.lookFilled__19298.colorBrand_b2253e.sizeSmall__71a98.grow__4c8a4.button__66e8c{
+.button_b82d53.buttonColor__7bad9.buttonActive_ae686f.button__581d0.lookFilled__950dd.colorBrand__27d57.sizeSmall_da7d10.grow__4c8a4.button_b82d53{
   border-radius: 15px;
   background: var(--linear-transparent);
   box-shadow: 0px 0px 5px 2px hsl(var(--accent-hsl)), inset 0px 0px 5px 2px hsl(var(--accent-hsl));
@@ -1609,13 +1786,33 @@ scale: 0.95;
 mention border fix
 */
 
-.wrapper__09ecc {
-  margin-left: 18px;
-  margin-right: 15px;
-  background-color: var(--message-color) !important;
-  border-radius: var(--message-radius);
+.message_ccca67.cozyMessage__9f4fd.mentioned_fa6fd2.groupStart__7b93c.wrapper_a62503.cozy_f5c119.zalgo__39311{
+  position: relative;
+  background-color: transparent;
+  
+  border: 0px solid hsl(var(--accent-hsl)); 
+  border-radius: 15px; 
+  box-shadow: 0px 0px 10px 5px hsl(var(--accent-hsl)), inset 0px 0px 10px 5px hsl(var(--accent-hsl));
+  animation: glowing 4s infinite;
 }
 
+.message_ccca67.cozyMessage__9f4fd.mentioned_fa6fd2.groupStart__7b93c.wrapper_a62503.cozy_f5c119.zalgo__39311{
+  margin-left: 18px;
+  margin-right: 15px;
+  border-radius: var(--message-radius);
+  background: rgba(0, 0, 0, 0.112);
+}
+
+.message_ccca67.cozyMessage__9f4fd.groupStart__7b93c.replying__38514.wrapper_a62503.cozy_f5c119.zalgo__39311 {
+  margin-left: 18px;
+  margin-right: 15px;
+  border-radius: var(--message-radius);
+  background: rgba(0, 0, 0, 0.112);
+}
+
+.message_ccca67.cozyMessage__9f4fd.groupStart__7b93c.replying__38514.wrapper_a62503.cozy_f5c119.zalgo__39311:before{
+display: none;
+}
 
 /*
 jump to newer messages
@@ -1641,10 +1838,10 @@ Mentioned message glow
   100% { box-shadow: 0px 0px 10px 5px hsl(var(--accent-hsl)), inset 0px 0px 10px 5px hsl(var(--accent-hsl)); }
 }
 
-.mentioned__58017 {
+.message_ccca67.cozyMessage__9f4fd.groupStart__7b93c.replying__38514.wrapper_a62503.cozy_f5c119.zalgo__39311 {
   position: relative;
   background-color: transparent;
-  padding: 2px;  
+  
   border: 0px solid hsl(var(--accent-hsl)); 
   border-radius: 15px; 
   box-shadow: 0px 0px 10px 5px hsl(var(--accent-hsl)), inset 0px 0px 10px 5px hsl(var(--accent-hsl));
