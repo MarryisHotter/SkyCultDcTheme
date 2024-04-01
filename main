@@ -2,7 +2,7 @@
 
 :root {
   --app-blur: 0px;
-  --background: url(https://tenor.com/view/rickroll-roll-rick-never-gonna-give-you-up-never-gonna-gif-22954713)!important;
+
   --app-margin: 24px;
   --app-radius: 10px;
   --saturation-factor: 1;
