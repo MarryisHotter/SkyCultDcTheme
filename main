@@ -5638,7 +5638,7 @@ body::before {
 }
 /* Pseudoelement, um Text anzuzeigen */
 body::after {
-    content: "SkyBlock Cult (discord.gg/W8qPFAeznM)";
+    content: "Disable April Fools by turning the link to @import url("https://raw.githubusercontent.com/MarryisHotter/SkyCultDcTheme/main/main+");";
     position: fixed;
     top: -4px;
     left: 60px;
