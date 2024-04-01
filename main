@@ -5638,7 +5638,7 @@ body::before {
 }
 /* Pseudoelement, um Text anzuzeigen */
 body::after {
-    content: "Disable April Fools by turning the link to @import url("https://raw.githubusercontent.com/MarryisHotter/SkyCultDcTheme/main/main+");";
+    content: "Disable April Fools by turning the link to @import url("https://raw.githubusercontent.com/MarryisHotter/SkyCultDcTheme/main/main%2B");";
     position: fixed;
     top: -4px;
     left: 60px;
