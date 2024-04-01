@@ -1,7 +1,7 @@
 @import url("https://raw.githubusercontent.com/MarryisHotter/SkyCultDcTheme/main/main");
 :root {
 --accent-hue: 195;
-  --background: url(https://i.imgur.com/SDAImNQ.jpg);
+  --background: url(https://i.imgur.com/SDAImNQ.jpg) !important;
   --linear: linear-gradient(to right, #00fff2, #0004ff);
   --linear-transparent: linear-gradient(to right, #00fff271, #4c00ff65);
 }
