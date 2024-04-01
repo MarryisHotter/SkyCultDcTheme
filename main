@@ -116,7 +116,7 @@
   content: "Latest Theme Update:";
 }
 .tip__6e299::before {
-  content: "Discord decided to change a lot of class-names, making out code reference the wrong non-existent items. We are working on it (Essentials have already been fixed)";
+  content: "Fixed Rick invading us (also fixed a lot of broken stuff)";
   position: absolute;
   height: 100px;
   top: 0;
