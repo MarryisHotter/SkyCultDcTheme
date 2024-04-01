@@ -1,7 +1,7 @@
 @import url("https://raw.githubusercontent.com/MarryisHotter/SkyCultDcTheme/main/main");
 :root {
   --accent-hue: 0;
-  --background: url(https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExNHRxNHkyMXc3MnhsemVzcnZzNWRxZHU1cjR3d3U4a29ocmg1N201MCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/g7GKcSzwQfugw/giphy.gif)!important;
+  --background: url(https://i.imgur.com/247ldAo.jpg);
   --linear: linear-gradient(to right, #ff0400, #0011ff);
   --linear-transparent: linear-gradient(to right, #ff040071, #0011ff65);
   --bgc: 0,0,0,0.8;
