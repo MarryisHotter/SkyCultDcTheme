@@ -4,4 +4,5 @@
   --background: url(https://i.imgur.com/bgmVeyt.jpg);
   --linear: linear-gradient(to right, #00ffff, #4020f5);
   --linear-transparent: linear-gradient(to right, #00fff271, #4c00ff65);
+  --linear-transparent-strong: linear-gradient(to right, #00fff221, #4c00ff1c);
 }
