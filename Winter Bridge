@@ -4,4 +4,5 @@
   --background: url(https://i.imgur.com/W2a5f87.jpg);
   --linear: linear-gradient(to right, #00d9ff, #00ffa2);
   --linear-transparent: linear-gradient(to right, #00fff271, #00ffb365);
+  --linear-transparent-strong: linear-gradient(to right, #00fff21c, #00ffb31f);
 }
