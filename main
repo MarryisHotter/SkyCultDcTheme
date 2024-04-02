@@ -149,6 +149,12 @@
 fix
 */
 
+.scrollbarGhostHairline__00100.scrollbar_b61b2b.hljs{
+ border: 1px solid hsl(var(--accent-hsl));
+ background: rgba(0, 0, 0, 0.475);
+}
+
+
 .containerUserOver__2f65b:after{
   background: var(--linear-transparent-strong);
  border: 2px solid hsl(var(--accent-hsl));
