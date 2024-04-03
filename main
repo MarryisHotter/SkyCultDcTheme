@@ -1,4 +1,5 @@
 
+
 :root {
   --app-blur: 0px;
   --app-margin: 24px;
@@ -1866,16 +1867,7 @@ marginBottom40__9109c{
 
 }
 
-.userPopoutInner_f545a3.userProfileInner__8065b.userProfileInnerThemedNonPremium__3d0a6::before{
-  margin-bottom: px;
-  margin-left: 4px;
-  backdrop-filter: blur(6px);
- background-color: rgba(0, 0, 0, 0.432);
- border: 0px solid hsl(var(--accent-hsl)); 
-  border-radius: 15px; 
-  scale: 1.025;
 
-}
 
  .container__03857.thin_b1c063.scrollerBase_dc3aa9{
  background-color: rgba(0, 0, 0, 0.411);
@@ -1900,8 +1892,7 @@ animatorRight__5895e.translate_c2f6c4.didRender_f1da13{
   box-shadow: 0px 0px 5px 2px hsl(var(--accent-hsl)), inset 0px 0px 5px 2px hsl(var(--accent-hsl));
   backdrop-filter: blur(6px);
 }
-
-.userPopoutOuter_d739b2.userProfileOuter__46bb7.userProfileOuterUnthemed__48723.profileColors__2e2f0.theme-dark{
+.userPopoutOuter__3884e.userProfileOuter__4ac83.userProfileOuterUnthemed_e14365.profileColors_ac6ab4.theme-dark{
  background-color: rgba(0, 0, 0, 0.432);
  border: 0px solid hsl(var(--accent-hsl)); 
   border-radius: 15px; 
@@ -1939,8 +1930,6 @@ background: rgba(0, 0, 0, 0);
 .menu_dc52c6.flexible__7055b::before{
 backdrop-filter: blur(px);
 background-color: rgba(0, 0, 0, 0);
-
-
 }
 
 
@@ -1951,6 +1940,20 @@ background: rgba(0, 0, 0, 0);
   border-radius: 5px; 
   box-shadow: 0px 0px 5px 2px hsl(var(--accent-hsl)), inset 0px 0px 5px 2px hsl(var(--accent-hsl));
 }
+
+
+.userPopoutInner_e90432.userProfileInner__61cc1.userProfileInnerThemedNonPremium_ed9022::before{
+
+  margin-bottom: px;
+  margin-left: 4px;
+  backdrop-filter: blur(6px);
+ background-color: rgba(0, 0, 0, 0.432);
+ border: 0px solid hsl(var(--accent-hsl)); 
+  border-radius: 15px; 
+  scale: 1.025;
+}
+
+
 
 
 .menu__088f7:before {
@@ -1968,17 +1971,16 @@ background: rgba(0, 0, 0, 0);
   z-index: -1;
 }
 
-.menu__5cf7f:before {
+.menu__13d0c:before {
   display: none;
 }
 
 
-.theme-dark.layer_ec16dd::before{
+
+.theme-dark.layer__6b5c3::before{
 backdrop-filter: blur(px);
 background-color: rgba(0, 0, 0, 0);
   box-shadow: 0px 0px 5px 2px hsl(var(--accent-hsl)), inset 0px 0px 5px 2px hsl(var(--accent-hsl));
-
-  
 }
 
 .root__26810.withHeader__43cb3.root_a28985.large_def294.fullscreenOnMobile__96797.rootWithShadow__073a7{
