@@ -149,6 +149,9 @@
 fix
 */
 
+.newMessagesBar__8b272.barBase__8839d{
+    background: hsl(var(--accent-hsl));
+}
 
 .animatorRight_b16ad3.translate__02873.didRender__7e24c{
  background-color: rgba(0, 0, 0, 0.379);
