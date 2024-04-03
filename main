@@ -159,6 +159,7 @@ box-shadow: 0px 0px 5px 2px hsl(var(--accent-hsl)), inset 0px 0px 5px 2px hsl(va
 
 .background__3b760.selectedBackground__4039b{
     background: var(--linear-transparent);
+box-shadow: 0px 0px 5px 2px hsl(var(--accent-hsl)), inset 0px 0px 5px 2px hsl(var(--accent-hsl));
 }
 
 .newMessagesBar__8b272.barBase__8839d{
