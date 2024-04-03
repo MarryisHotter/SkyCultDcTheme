@@ -1,5 +1,3 @@
-
-
 :root {
   --app-blur: 0px;
   --app-margin: 24px;
@@ -2330,7 +2328,7 @@ background-color: rgba(0, 0, 0, 0.562);
 Hover over Text for more visibility
 */
 
-.markup_a7e664.messageContent__21e69:hover{
+.markup_a7e664.messageContent_abea64:hover{
  background-color: rgba(var(--bgc)); 
  border-radius: 8px;
 }
@@ -2581,12 +2579,16 @@ some Backgrounds
   transition: box-shadow 0.3s ease, background-color 0.3s ease;
   box-shadow: 0 0 10px rgba(0, 0, 255, 0); 
 }
-.container_dbadf5:hover {
+.container__62863:hover {
   box-shadow: 0 0 20px hsl(var(--accent-hsl));
   background-color: rgba(var(--bgc)); 
-  
+  border-radius: 5px;
 }
-.username__0b0e7.desaturateUserColors_eb6bd2.clickable__09456:hover{
+.nonMediaAttachmentsContainer__912df:hover{
+  background-color: rgba(var(--bgc));
+  border-radius: 10px;
+  }
+  .username__0b0e7.desaturateUserColors_eb6bd2.clickable__09456:hover{
   background-color: rgba(var(--bgc));
   border-radius: 5px;
   }
