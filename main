@@ -1,4 +1,5 @@
 
+
 :root {
   --app-blur: 0px;
   --app-margin: 24px;
@@ -148,6 +149,55 @@
 /*
 fix
 */
+
+.container_cbd141{
+background: transparent!important;
+}
+
+.topRow_b0479e{
+background: transparent!important;
+}
+
+.bottomRowAction_b95fd7{
+background: transparent!important;
+}
+
+.header_aacd9b{
+background: var(--linear-transparent)!important;
+
+}
+
+.container__532be.thin__62e51.scrollerBase__65223{
+background: transparent!important;
+}
+
+.bottomRowAction_b95fd7:hover{
+background: var(--linear-transparent)!important;
+box-shadow: 0px 0px 5px 2px hsl(var(--accent-hsl)), inset 0px 0px 5px 2px hsl(var(--accent-hsl));
+}
+
+.userProfileModalOuter_a65559.userProfileOuter__4ac83.userProfileOuterThemed__1fbd7.profileColors_ac6ab4.theme-dark.profileThemedContainer__6e645{
+ background-color: rgba(0, 0, 0, 0.443);
+ border: 1px solid hsl(var(--accent-hsl)); 
+  border-radius: 10px; 
+box-shadow: 0px 0px 5px 2px hsl(var(--accent-hsl)), inset 0px 0px 5px 2px hsl(var(--accent-hsl));
+  backdrop-filter: blur(6px);
+}
+
+.wrapper__91b2c.categoryHeader__70c8e{
+background: var(--linear-transparent);
+ border: 1px solid hsl(var(--accent-hsl)); 
+  border-radius: 10px; 
+ z-index: 2;
+}
+
+.autocomplete__743a5.outerWrapper__99794{
+ background-color: rgba(0, 0, 0, 0.443);
+ border: 1px solid hsl(var(--accent-hsl)); 
+  border-radius: 10px; 
+box-shadow: 0px 0px 5px 2px hsl(var(--accent-hsl)), inset 0px 0px 5px 2px hsl(var(--accent-hsl));
+  backdrop-filter: blur(6px);
+}
 
 .message_ff43e6{
     background: transparent!important;
@@ -2296,6 +2346,10 @@ mention border fix
   background: rgba(0, 0, 0, 0.112);
 }
 
+.jumpToPresentBar__69174.barBase__8839d{
+    background: var(--linear-transparent);
+}
+
 .message_ccca67.cozyMessage__9f4fd.groupStart__7b93c.replying__38514.wrapper_a62503.cozy_f5c119.zalgo__39311 {
   margin-left: 18px;
   margin-right: 15px;
@@ -2475,11 +2529,12 @@ some Backgrounds
   background-color: rgba(var(--bgc)); 
   
 }
-.username_d30d99.desaturateUserColors_b72bd3.clickable_d866f1:hover{
+.username__0b0e7.desaturateUserColors_eb6bd2.clickable__09456:hover{
   background-color: rgba(var(--bgc));
   border-radius: 5px;
   }
-.repliedTextPreview__90311.clickable_d866f1:hover{
+
+.repliedTextPreview__1a8a4.clickable__09456:hover{
   background-color: rgba(var(--bgc)); 
   border-radius: 4px;
 }
