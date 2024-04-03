@@ -149,6 +149,11 @@
 fix
 */
 
+.message_ff43e6{
+    background: transparent!important;
+    border: 1px solid hsl(var(--accent-hsl)); 
+}
+
 .customColumn__0b6a6{
  background-color: rgba(0, 0, 0, 0.443);
  border: 1px solid hsl(var(--accent-hsl)); 
