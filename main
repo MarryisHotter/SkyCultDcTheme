@@ -149,6 +149,10 @@
 fix
 */
 
+.background__3b760.selectedBackground__4039b{
+    background: var(--linear-transparent);
+}
+
 .newMessagesBar__8b272.barBase__8839d{
     background: hsl(var(--accent-hsl));
 }
