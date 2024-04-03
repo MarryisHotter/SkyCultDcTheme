@@ -1,5 +1,4 @@
 
-
 :root {
   --app-blur: 0px;
   --app-margin: 24px;
@@ -149,6 +148,50 @@
 /*
 fix
 */
+
+.flex_f18b02.horizontal__4848b.justifyStart__6f8c8.alignCenter__9c6ed.noWrap__5c413.header__5e5a6.modalHeaderCustomGift_d0f226{
+    background: transparent;
+}
+
+.contentWrapper_e0bb2c{
+ background-color: rgba(0, 0, 0, 0.379);
+ border: 1px solid hsl(var(--accent-hsl)); 
+  border-radius: 10px; 
+box-shadow: 0px 0px 5px 2px hsl(var(--accent-hsl)), inset 0px 0px 5px 2px hsl(var(--accent-hsl));
+  backdrop-filter: blur(6px);
+}
+
+.emojiPicker__5e2e2{
+ background-color: rgba(0, 0, 0, 0.379);
+ border: 1px solid hsl(var(--accent-hsl)); 
+  border-radius: 10px; 
+box-shadow: 0px 0px 5px 2px hsl(var(--accent-hsl)), inset 0px 0px 5px 2px hsl(var(--accent-hsl));
+  backdrop-filter: blur(6px);
+}
+
+.header_e5d8b2{
+ background-color: rgba(0, 0, 0, 0.379);
+ border: 1px solid hsl(var(--accent-hsl)); 
+  border-radius: 10px; 
+box-shadow: 0px 0px 5px 2px hsl(var(--accent-hsl)), inset 0px 0px 5px 2px hsl(var(--accent-hsl));
+  backdrop-filter: blur(6px);
+}
+
+.buttonsInner_a9dfff.wrapper__4e6b6{
+ background-color: rgba(0, 0, 0, 0.379);
+ border: 1px solid hsl(var(--accent-hsl)); 
+  border-radius: 10px; 
+
+  backdrop-filter: blur(6px);
+}
+
+.buttonsInner_a9dfff.wrapper__4e6b6:hover{
+ background-color: rgba(0, 0, 0, 0.379);
+ border: 1px solid hsl(var(--accent-hsl)); 
+  border-radius: 10px; 
+box-shadow: 0px 0px 5px 2px hsl(var(--accent-hsl)), inset 0px 0px 5px 2px hsl(var(--accent-hsl));
+  backdrop-filter: blur(6px);
+}
 
 .content_b28aab.thin__62e51.scrollerBase__65223{
  background-color: rgba(0, 0, 0, 0.379);
