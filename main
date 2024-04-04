@@ -114,7 +114,7 @@
   content: "Latest Theme Update:";
 }
 .tip__6e299::before {
-  content: "Fixed Rick invading us (also fixed a lot of broken stuff)";
+  content: "Maincode complete, publishing theme!";
   position: absolute;
   height: 100px;
   top: 0;
