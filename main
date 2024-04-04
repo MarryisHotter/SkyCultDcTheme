@@ -5661,30 +5661,30 @@ body {
   padding-right: 8px !important;
   border: 2px solid transparent;
 }
-.wrapper-30-Nkg.cozy-VmLDNB .timestamp-p1Df1m.alt-1dvXnH {
+.wrapper-30-Nkg.cozy-VmLDNB .timestamp_ff7119.alt-1dvXnH {
   left: -62px;
 }
 .wrapper-30-Nkg.compact-2Nkcau {
   padding: 4px;
   padding-left: 6px;
 }
-.wrapper-30-Nkg.compact-2Nkcau .timestamp-p1Df1m {
+.wrapper-30-Nkg.compact-2Nkcau .timestamp_ff7119 {
   margin-right: 0.75rem;
 }
-.wrapper-30-Nkg .timestamp-p1Df1m {
+.wrapper-30-Nkg .timestamp_ff7119 {
   color: var(--text-normal);
 }
-.wrapper-30-Nkg .timestamp-p1Df1m.alt-1dvXnH {
+.wrapper-30-Nkg .timestamp_ff7119.alt-1dvXnH {
   color: var(--text-normal);
 }
 .wrapper-30-Nkg .channelTextArea-1VQBuV {
   margin: 2px 0;
 }
 
-.wrapper-30-Nkg .timestamp-p1Df1m {
+.wrapper-30-Nkg .timestamp_ff7119 {
   color: var(--text-normal);
 }
-.wrapper-30-Nkg .timestamp-p1Df1m.alt-1dvXnH {
+.wrapper-30-Nkg .timestamp_ff7119.alt-1dvXnH {
   color: var(--text-normal);
 }
 .wrapper-30-Nkg .channelTextArea-1VQBuV {
