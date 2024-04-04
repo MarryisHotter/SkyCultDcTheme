@@ -156,7 +156,22 @@
 fix
 */
 
+.button__581d0.lookFilled__950dd.colorRed__5a617.sizeSmall_da7d10.grow__4c8a4:hover{
+ background-color: red;
+ border: 1px solid red; 
+box-shadow: 0px 0px 5px 2px red, inset 0px 0px 5px 2px red;
+}
 
+.content__97388{
+        box-shadow: none!important;
+    border: none!important;
+    background: none!important;
+    backdrop-filter: none!important;
+}
+
+.footerButton__5a20d.button__581d0.lookFilled__950dd.colorPrimary_ebe632.sizeMedium__60c12.grow__4c8a4{
+    background: var(--linear-transparent);
+}
 
 .queryContainer_c1cb2f.focused__68b93{
  background-color: rgba(0, 0, 0, 0.443);
@@ -2442,7 +2457,7 @@ jump to newer messages
 Mentioned message glow
 */
 
-@keyframes glowing {
+keyframes glowing {
   0% { box-shadow: 0px 0px 10px 5px hsl(var(--accent-hsl)), inset 0px 0px 10px 5px hsl(var(--accent-hsl)); }
   50% { box-shadow: 0px 0px 17px 7px hsl(var(--accent-hsl)), inset 0px 0px 17px 7px hsl(var(--accent-hsl)); }
   100% { box-shadow: 0px 0px 10px 5px hsl(var(--accent-hsl)), inset 0px 0px 10px 5px hsl(var(--accent-hsl)); }
