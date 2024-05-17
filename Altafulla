@@ -1,0 +1,8 @@
+@import url("https://raw.githubusercontent.com/MarryisHotter/SkyCultDcTheme/main/main");
+:root {
+ --accent-hue: 53;
+  --background: url(https://i.imgur.com/tVXLs3e.jpeg);
+  --linear: linear-gradient(to right, #ff6200, #f2ff00);
+  --linear-transparent: linear-gradient(to right, #ff510071, #ffff0065);
+  --linear-transparent-strong: linear-gradient(to right, #ff4d001c, #fff7001f);
+}
